@@ -41,7 +41,7 @@ var goToStage = function() {
   if (!s) return;
   var selector = s.focus == "*" ? "circle" : s.focus.split("&").map(n => `.node-${n}`).join(",");
   var elements = savage(selector);
-  camera.zoomTo(elements, 400);
+  camera.zoomTo(elements, s.focus == "*" ? 40 : 400);
   var text = s.text;
   if (sequences[sequence][stage + 1]) {
     text += `<a class="next">continue &raquo;</a>`
@@ -170,7 +170,7 @@ window.network.edges.forEach(function(row) {
   }
   edge = edge[0];
   if (edge && row.editedQuote) {
-    savage(edge).addClass("quoted");
+    // savage(edge).addClass("quoted");
     var key = `${row.source}/${row.target}`;
     edge.setAttribute("data-edge", key);
     edgeLookup[key] = row;
@@ -199,6 +199,7 @@ mc.get("pinch").set({ enable: true });
 mc.get("pan").set({ direction: Hammer.DIRECTION_ALL });
 
 mc.on("panstart pinchstart", function(e) {
+  pinching = false;
   memory = { 
     touch: { x: e.center.x, y: e.center.y },
     viewbox: decodeViewbox(),
@@ -206,7 +207,11 @@ mc.on("panstart pinchstart", function(e) {
   };
 });
 
+var pinching;
+
 mc.on("pan pinch", function(e) {
+  if (e.type == "pinch") pinching = true;
+  if (e.type == "pan" && pinching) return;
   if (e.deltaTime > 100) {
     removeTooltip();
   }
