@@ -1,0 +1,74 @@
+.svg-container {
+  background: radial-gradient(#FFF, #F8F8F8);
+  position: relative;
+
+  &::before {
+    content: "";
+    display: block;
+    padding-bottom: percentage(3082 / 2965);
+  }
+
+  svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    path {
+      stroke: black;
+      stroke-width: 3px;
+      fill: none;
+
+      &.quoted {
+        stroke: @df-blue;
+        stroke-width: 10px;
+
+        @media @mobile {
+          stroke-width: 20px;
+        }
+      }
+
+      &.selected {
+        stroke: @st-dark-red;
+      }
+    }
+
+    text {
+      font-family: @df-sans;
+      font-size: 30px;
+      opacity: 0;
+      pointer-events: none;
+      font-weight: bold;
+    }
+
+    circle {
+      fill: @st-dark-purple;
+      transition: all .2s linear;
+
+      &:hover,
+      &:focus,
+      &[neighbor] {
+        fill: @st-dark-orange;
+
+        & + text {
+          opacity: .7;
+          fill: @df-dark-gray;
+        }
+      }
+
+      &:hover,
+      &:focus,
+      &[highlight] {
+        opacity: 1;
+
+        & + text {
+          font-size: 40px;
+          opacity: 1;
+          fill: black;
+          text-shadow: 0 0 2px white;
+        }
+      }
+    }
+  }
+}

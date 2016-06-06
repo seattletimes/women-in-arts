@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+  <head>
+    <title><%= json.project.title %></title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <%= t.include("partials/_head.html") %>
+  </head>
+  <body>
+
+    <responsive-child>
+      <main class="interactive">
+        <div class="narrative">
+          <nav class="sequences">
+            <a data-sequence="intro" class="selected">Intro</a>
+            <a data-sequence="gates">Mimi Gardner Gates</a>
+            <a data-sequence="ingram">Davida Ingram</a>
+          </nav>
+          <div class="caption"></div>
+        </div>
+        <div class="svg-container">
+          <%= t.include("./assets/network.svg") %>
+          <div class="tooltip"></div>
+        </div>
+      </main>
+    </responsive-child>
+
+    <script>
+window.network = {
+  edges: <%= JSON.stringify(csv.connections) %>,
+  nodes: <%= JSON.stringify(csv.people) %>,
+  narrative: <%= JSON.stringify(csv.narratives) %>
+};
+    </script>
+
+    <script src="app.js" async></script>
+    <% if (json.project.production) { %>
+    <%= !json.project.embedded ? t.include("partials/_foot.html") : "" %>
+    <%= t.include("partials/_workHere.html") %>
+    <% } %>
+  </body>
+</html>
