@@ -20,12 +20,13 @@ var savage = window.savage = require("savage-query");
 var SVGCamera = require("savage-camera");
 var camera = window.camera = new SVGCamera(svg);
 
-camera.zoomTo(savage("circle"), 100);
+// camera.zoomTo(savage("circle"), 100);
 
 var state = {
   selected: null,
   viewbox: null,
-  bounds: null
+  bounds: null,
+  start: null
 };
 
 // Network manipulation functions
@@ -77,7 +78,35 @@ closeButton.addEventListener("click", () => {
   camera.zoomTo(savage("circle"), 100);
 });
 
-// placeholder UI hookup code
+// fun with sequences
+
+var showSequence = function(sequence, stage) {
+  if (!(sequence in sequences)) return;
+  var s = sequences[sequence][stage];
+  if (!s) return;
+  if (s.focus == "*") {
+    var selector = "circle";
+  } else {
+    var ids = s.focus.split("&");
+    var selector = ids.map(n => `.node-${n}`).join(", ");
+  }
+  if (s.highlight) {
+    highlightNeighbors(s.highlight);
+  }
+  var nodes = savage(selector);
+  if (s.focus !== "*") nodes.addClass("highlight");
+  camera.zoomTo(nodes, nodes.elements.length > 2 ? 100: 400);
+};
+
+var setSequenceText = function(sequence, stage) {
+  var html = sequences[sequence][stage].text;
+  if (sequences[sequence][stage + 1]) {
+    html += `<a class="next" data-sequence="${sequence}" data-index="${stage + 1}">Continue &raquo;</a>`
+  }
+  caption.innerHTML = html;
+};
+
+// UI hookup code
 
 var circles = $("circle");
 
@@ -102,6 +131,21 @@ circles.forEach(el => el.addEventListener("click", function(e) {
   zoomToNetwork(connected);
 }));
 
+$(".sequences [data-sequence]").forEach(el => el.addEventListener("click", function(e) {
+  clearHighlights();
+  var sequence = this.getAttribute("data-sequence");
+  showSequence(sequence, 0);
+  setSequenceText(sequence, 0);
+}));
+
+caption.addEventListener("click", function(e) {
+  if (e.target.classList.contains("next")) {
+    var sequence = e.target.getAttribute("data-sequence");
+    var index = e.target.getAttribute("data-index") * 1;
+    showSequence(sequence, index);
+    setSequenceText(sequence, index);
+  }
+});
 
 // multitouch support
 var decodeViewbox = function() {
