@@ -7,39 +7,6 @@
   margin: auto;
 }
 
-.tooltip {
-  position: absolute;
-  max-width: 300px;
-  padding: 8px;
-  background: fade(white, 80%);
-  box-shadow: 0px 8px 8px fade(black, 20%);
-  font-size: 14px;
-  display: none;
-
-  &.show {
-    display: block;
-  }
-
-  blockquote {
-    margin: 8px;
-    position: relative;
-    background: fade(white, 90%);
-  }
-
-  cite {
-    text-align: right;
-    display: block;
-  }
-
-  @media @mobile {
-    position: fixed;
-    top: 50px !important;
-    left: 50px !important;
-    right: 50px !important;
-    background: white;
-  }
-}
-
 .narrative {
   .display-flex();
 
@@ -84,5 +51,69 @@
       text-align: right;
       cursor: pointer;
     }
+  }
+}
+
+.graph-view {
+  .display-flex();
+  height: 600px;
+  max-height: 80vh;
+
+  .svg-container {
+    .flex(1 1 100%);
+  }
+}
+
+.detail-panel {
+  width: 0;
+  overflow: hidden;
+  transition: all .2s ease-in-out;
+  position: relative;
+  overflow-y: auto;
+  font-size: 14px;
+
+  @open-width: 240px;
+
+  .open-details & {
+    width: @open-width;
+    .flex(0 0 @open-width);
+  }
+
+  .close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 24px;
+    padding: 8px;
+    cursor: pointer;
+  }
+
+  .content {
+    width: @open-width;
+    padding: 32px 16px;
+  }
+
+  h2 {
+    font-size: 20px;
+    margin: 0;
+  }
+
+  h3 {
+    font-size: 16px;
+    margin: 0;
+  }
+
+  .quote {
+    padding: 8px 0;
+  }
+
+  blockquote {
+    margin: 0;
+    padding: 0;
+  }
+
+  cite {
+    display: block;
+    text-align: right;
   }
 }

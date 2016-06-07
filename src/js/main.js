@@ -4,237 +4,177 @@
 
 require("component-responsive-frame/child");
 var $ = require("./lib/qsa");
+var dot = require("./lib/dot");
 var Hammer = require("hammerjs");
 
-var svg = document.querySelector("svg");
-var tooltip = document.querySelector(".tooltip");
-var caption = document.querySelector(".narrative .caption");
+var { edgeLookup, nodeLookup, neighbors, sequences } = require("./setup");
 
-var SVGCamera = require("savage-camera");
-var camera = new SVGCamera(svg);
-window.camera = camera;
+var caption = document.querySelector(".narrative .caption");
+var container = document.querySelector(".graph-view");
+var svg = document.querySelector("svg");
+var details = document.querySelector(".detail-panel .content");
+
+var detailTemplate = dot.compile(require("./_details.html"));
 
 var savage = window.savage = require("savage-query");
+var SVGCamera = require("savage-camera");
+var camera = window.camera = new SVGCamera(svg);
 
-var edgeLookup = {};
-var nodeLookup = {};
-var neighbors = {};
+camera.zoomTo(savage("circle"), 100);
 
-var sequences = {};
-window.network.narrative.forEach(function(row) {
-  if (!sequences[row.thread]) sequences[row.thread] = [];
-  sequences[row.thread].push(row);
-  row.focus = row.focus + "";
-});
-for (var k in sequences) {
-  sequences[k].sort((a, b) => a.stage - b.stage);
-}
-
-var sequenceState = {
-  sequence: "intro",
-  stage: 0
+var state = {
+  selected: null,
+  viewbox: null,
+  bounds: null
 };
 
-var goToStage = function() {
-  var { sequence, stage } = sequenceState;
-  var s = sequences[sequence][stage];
-  if (!s) return;
-  var selector = s.focus == "*" ? "circle" : s.focus.split("&").map(n => `.node-${n}`).join(",");
-  var elements = savage(selector);
-  camera.zoomTo(elements, s.focus == "*" ? 40 : 400);
-  var text = s.text;
-  if (sequences[sequence][stage + 1]) {
-    text += `<a class="next">continue &raquo;</a>`
-  }
-  caption.innerHTML = text;
-  var previousHighlight = $(`[highlight]`);
-  previousHighlight.forEach(el => el.removeAttribute("highlight"));
-  var previousNeighbors = $(`[neighbor]`);
-  previousNeighbors.forEach(el => el.removeAttribute("neighbor"));
-  var highlight = document.querySelector(`.node-${s.highlight}`);
-  if (!highlight) return;
-  highlight.setAttribute("highlight", "");
-  var connected = neighbors[s.highlight];
-  if (connected) connected.forEach(function(id) {
-    var n = document.querySelector(`.node-${id}`)
-    if (n) n.setAttribute("neighbor", "");
+// Network manipulation functions
+
+var clearHighlights = function() {
+  savage("circle.highlight").removeClass("highlight");
+  savage("circle.neighbor").removeClass("neighbor");
+  savage("path.highlight").removeClass("highlight");
+}
+
+var highlightNode = function(id) {
+  savage(`circle.highlight`).removeClass("highlight");
+  var node = document.querySelector(`.node-${id}`);
+  savage(node).addClass("highlight");
+};
+
+var highlightNeighbors = function(id) {
+  savage(`path.highlight`).removeClass("highlight");
+  savage(`path.edge-${id}`).addClass("highlight");
+  var nodes = neighbors[id] || [];
+  savage("circle.neighbor").removeClass("neighbor");
+  nodes.forEach(function(n) {
+    savage(`.node-${n}`).addClass("neighbor");
   });
 };
 
-var onSequence = function() {
-  var current = document.querySelector("[data-sequence].selected");
-  if (current) current.classList.remove("selected");
-  this.classList.add("selected");
-  var s = this.getAttribute("data-sequence");
-  sequenceState.sequence = s;
-  sequenceState.stage = 0;
-  goToStage();
-}
+var zoomToNetwork = function(ids) {
+  if (!(ids instanceof Array)) ids = [ids];
+  var selector = ids.map(id => `.node-${id}`).join(", ");
+  var nodes = savage(selector);
+  camera.zoomTo(nodes, 100);
+};
 
-$(`[data-sequence]`).forEach(el => el.addEventListener("click", onSequence));
-document.querySelector(".narrative .caption").addEventListener("click", function(e) {
-  if (e.target.classList.contains("next")) {
-    sequenceState.stage++;
-    goToStage();
-  }
+// open the details panel
+
+var showDetails = function(id) {
+  state.selected = id;
+  var node = nodeLookup[id];
+  var edges = window.network.edges.filter(e => e.from != node.label && (e.source == id || e.target == id));
+  var html = detailTemplate({ node, edges });
+  details.innerHTML = html;
+  container.classList.add("open-details");
+};
+
+var closeButton = document.querySelector(".detail-panel .close");
+closeButton.addEventListener("click", () => {
+  state.selected = null;
+  container.classList.remove("open-details");
+  camera.zoomTo(savage("circle"), 100);
 });
 
-goToStage();
+// placeholder UI hookup code
 
-var rgb = (r, g, b) => `rgb(${r}, ${g}, ${b})`;
+var circles = $("circle");
 
-var placeTooltip = function(e) {
-  tooltip.classList.add("show");
-  var bounds = svg.getBoundingClientRect();
-  var x = (e.touches ? e.touches[0].clientX : e.clientX) - bounds.left;
-  var y = (e.touches ? e.touches[0].clientY : e.clientY) - bounds.top;
-  if (x > bounds.width / 2) x -= tooltip.offsetWidth + 20;
-  if (y > bounds.height / 2) y -= tooltip.offsetHeight + 20;
-  y += 10;
-  x += 10;
-  tooltip.style.top = `${y}px`;
-  tooltip.style.left = `${x}px`;
-};
+circles.forEach(el => el.addEventListener("mouseover", function(e) {
+  if (state.selected) return;
+  var id = this.getAttribute("data-id");
+  highlightNode(id);
+  highlightNeighbors(id);
+}));
 
-var removeTooltip = () => tooltip.classList.remove("show");
+circles.forEach(el => el.addEventListener("mouseout", function(e) {
+  if (state.selected) return;
+  clearHighlights();
+}));
 
-var onEdge = function(e) {
-  savage(e.target).addClass("selected");
-  var edge = edgeLookup[e.target.getAttribute("data-edge")];
-  var quote = edge.editedQuote.trim();
-  var source = edge.a;
-  var target = edge.b;
-  svg.querySelector(`.node-${edge.source}`).setAttribute("neighbor", true);
-  svg.querySelector(`.node-${edge.target}`).setAttribute("neighbor", true);
-  tooltip.innerHTML = `
-    <div>${source} and ${target}</div>
-    <blockquote>"${quote}"</blockquote>
-    <cite> &mdash; ${edge.from}</cite>`
-  placeTooltip(e);
-};
+circles.forEach(el => el.addEventListener("click", function(e) {
+  var id = this.getAttribute("data-id");
+  showDetails(id);
+  highlightNode(id);
+  highlightNeighbors(id);
+  var connected = neighbors[id].concat(id);
+  zoomToNetwork(connected);
+}));
 
-var onNode = function(e) {
-  // placeTooltip(e);
-  var id = e.target.getAttribute("data-id");
-  // tooltip.innerHTML = nodeLookup[id].label;
-  var connected = neighbors[id];
-  if (connected) connected.forEach(function(n) {
-    var node = svg.querySelector(`.node-${n}`);
-    if (node) {
-      node.setAttribute("neighbor", "true");
-    }
-  });
-};
 
-var offNode = function() {
-  savage("path.selected").removeClass("selected");
-  var connected = svg.querySelectorAll("[neighbor]");
-  for (var i = 0; i < connected.length; i++) {
-    connected[i].removeAttribute("neighbor");
-  }
-  removeTooltip();
-};
-
-var namespace = svg.getAttribute("xmlns");
-
-window.network.nodes.forEach(function(row, i) {
-  var node = svg.querySelector(`.node-${row.id}`);
-  if (node) {
-    var label = row.label;
-    var t = document.createElementNS(namespace, "text");
-    t.innerHTML = label;
-    var g = document.createElementNS(namespace, "g");
-    node.parentElement.replaceChild(g, node);
-    g.appendChild(node);
-    g.appendChild(t);
-    t.setAttribute("x", node.getAttribute("cx") - t.getBBox().width / 2);
-    t.setAttribute("y", node.getAttribute("cy"));
-    nodeLookup[row.id] = row;
-    node.setAttribute("data-id", row.id);
-    node.addEventListener("mousemove", onNode);
-    node.addEventListener("mouseleave", offNode);
-  }
-});
-
-window.network.edges.forEach(function(row) {
-  if (!neighbors[row.source]) neighbors[row.source] = [];
-  neighbors[row.source].push(row.target);
-  if (!neighbors[row.target]) neighbors[row.target] = [];
-  neighbors[row.target].push(row.source);
-  var edge = svg.querySelectorAll(`.edge-${row.source}.edge-${row.target}`);
-  // remove duplicate connections
-  if (edge.length > 1) {
-    for (var i = 1; i < edge.length; i++) {
-      edge[i].parentElement.removeChild(edge[i]);
-    }
-  }
-  edge = edge[0];
-  if (edge && row.editedQuote) {
-    // savage(edge).addClass("quoted");
-    var key = `${row.source}/${row.target}`;
-    edge.setAttribute("data-edge", key);
-    edgeLookup[key] = row;
-    edge.addEventListener("mousemove", onEdge);
-    edge.addEventListener("mouseleave", offNode);
-    edge.addEventListener("touchstart", onEdge);
-  }
-});
-
-//multitouch support
+// multitouch support
 var decodeViewbox = function() {
   var [x, y, width, height] = svg.getAttribute("viewBox").split(" ").map(Number);
   return { x, y, width, height };
 };
 
-var encodeViewbox = function(v) {
-  return `${v.x} ${v.y} ${v.width} ${v.height}`;
+var clientToLocal = function(coords, bounds) {
+  return {
+    x: coords.x - bounds.left,
+    y: coords.y - bounds.top
+  }
 };
 
-var memory = null;
+var localToUV = function(coords, bounds) {
+  return {
+    x: coords.x / bounds.width,
+    y: coords.y / bounds.height
+  }
+};
 
 var mc = new Hammer(svg, {
-  preset: ["tap", "press", "pan", "pinch"]
+  pinch: { enable: true }
 });
-mc.get("pinch").set({ enable: true });
+
 mc.get("pan").set({ direction: Hammer.DIRECTION_ALL });
+mc.get("pinch").set({ enable: true });
 
-mc.on("panstart pinchstart", function(e) {
-  pinching = false;
-  memory = { 
-    touch: { x: e.center.x, y: e.center.y },
-    viewbox: decodeViewbox(),
-    bounds: svg.getBoundingClientRect()
+var initState = function(e) {
+  state.viewbox = decodeViewbox();
+  state.bounds = svg.getBoundingClientRect();
+  state.start = clientToLocal({ x: e.center.x, y: e.center.y }, state.bounds);
+};
+
+mc.on("panstart pinchstart pinchend", initState);
+
+var onTouch = function(e) {
+  var center = clientToLocal(e.center, state.bounds);
+  var scaled = {
+    width: state.viewbox.width / e.scale,
+    height: state.viewbox.height / e.scale
   };
-});
-
-var pinching;
-
-mc.on("pan pinch", function(e) {
-  if (e.type == "pinch") pinching = true;
-  if (e.type == "pan" && pinching) return;
-  if (e.deltaTime > 100) {
-    removeTooltip();
-  }
-  var { x, y, width, height } = memory.viewbox;
-  var scaledCenter = {
-    x: (e.center.x - memory.bounds.left) / memory.bounds.width,
-    y: (e.center.y - memory.bounds.top) / memory.bounds.height
+  var delta = {
+    x: center.x - state.start.x,
+    y: center.y - state.start.y,
+    width: state.viewbox.width - scaled.width,
+    height: state.viewbox.height - scaled.height
   };
-  var deltas = {
-    x: e.deltaX / memory.bounds.width,
-    y: e.deltaY / memory.bounds.height
+  var uv = localToUV(delta, state.bounds);
+  var shift = {
+    x: uv.x * state.viewbox.width - delta.width / 2,
+    y: uv.y * state.viewbox.height - delta.height / 2,
   };
   var box = {
-    width: width / e.scale,
-    height: width / e.scale,
-    x: x - deltas.x * width,
-    y: y - deltas.y * height
+    width: scaled.width,
+    height: scaled.height,
+    x: state.viewbox.x - shift.x,
+    y: state.viewbox.y - shift.y
   };
-  box.x = x - (box.width - width) / 2 * scaledCenter.x;
-  box.x -= deltas.x * width;
-  box.y = y - (box.height - height) / 2 * scaledCenter.y;
-  box.y -= deltas.y * height;
+  var boxString = [box.x, box.y, box.width, box.height].join(" ");
+  svg.setAttribute("viewBox", boxString);
+};
 
-  svg.setAttribute("viewBox", encodeViewbox(box));
+mc.on("pinch pan", onTouch);
 
+svg.addEventListener("wheel", function(e) {
+  var event = {
+    center: {
+      x: e.clientX,
+      y: e.clientY
+    },
+    scale: e.deltaY < 0 ? 1.2 : .8
+  };
+  initState(event);
+  onTouch(event);
 });

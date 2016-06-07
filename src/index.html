@@ -19,9 +19,14 @@
           </nav>
           <div class="caption"></div>
         </div>
-        <div class="svg-container">
-          <%= t.include("./assets/network.svg") %>
-          <div class="tooltip"></div>
+        <div class="graph-view">
+          <div class="svg-container">
+            <%= t.include("./assets/network.svg") %>
+          </div>
+          <div class="detail-panel">
+            <a class="close">&times;</a>
+            <div class="content"></div>
+          </div>
         </div>
       </main>
     </responsive-child>

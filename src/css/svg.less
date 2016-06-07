@@ -3,7 +3,7 @@
   position: relative;
 
   &::before {
-    content: "";
+    // content: "";
     display: block;
     padding-bottom: percentage(2017 / 2046);
   }
@@ -29,7 +29,7 @@
         }
       }
 
-      &.selected {
+      &.highlight {
         stroke: @st-dark-red;
       }
     }
@@ -43,12 +43,12 @@
     }
 
     circle {
-      fill: @st-dark-purple;
+      fill: @st-light-purple;
       transition: all .2s linear;
 
       &:hover,
       &:focus,
-      &[neighbor] {
+      &.neighbor {
         fill: @st-dark-orange;
 
         & + text {
@@ -59,7 +59,7 @@
 
       &:hover,
       &:focus,
-      &[highlight] {
+      &.highlight {
         opacity: 1;
         fill: @st-dark-orange;
 
