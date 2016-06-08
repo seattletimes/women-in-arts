@@ -104,7 +104,7 @@ var setSequenceText = function(sequence, stage) {
   if (sequences[sequence][stage + 1]) {
     html += `<a class="next" data-sequence="${sequence}" data-index="${stage + 1}">Continue &raquo;</a>`
   } else {
-    html += `<a class="out">Return &raquo;</a>`
+    html += `<a class="out">Reset &raquo;</a>`
   }
   caption.innerHTML = html;
 };
@@ -112,7 +112,7 @@ var setSequenceText = function(sequence, stage) {
 // init the sequences
 showSequence("chatter", 0);
 
-// mouse/platform-independent code
+// Hover UI for network graph
 
 var circles = $("circle");
 
@@ -128,7 +128,12 @@ circles.forEach(el => el.addEventListener("mouseout", function(e) {
   clearHighlights();
 }));
 
+// sequence UI
+
 $(".sequences [data-sequence]").forEach(el => el.addEventListener("click", function(e) {
+  var previous = document.querySelector("[data-sequence].selected");
+  if (previous) previous.classList.remove("selected");
+  this.classList.add("selected");
   clearHighlights();
   var sequence = this.getAttribute("data-sequence");
   showSequence(sequence, 0);
@@ -142,6 +147,7 @@ caption.addEventListener("click", function(e) {
   }
   if (e.target.classList.contains("out")) {
     showSequence("chatter", 0);
+    clearHighlights();
   }
 });
 
