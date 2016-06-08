@@ -106,7 +106,7 @@ var setSequenceText = function(sequence, stage) {
   caption.innerHTML = html;
 };
 
-// UI hookup code
+// mouse/platform-independent code
 
 var circles = $("circle");
 
@@ -120,15 +120,6 @@ circles.forEach(el => el.addEventListener("mouseover", function(e) {
 circles.forEach(el => el.addEventListener("mouseout", function(e) {
   if (state.selected) return;
   clearHighlights();
-}));
-
-circles.forEach(el => el.addEventListener("click", function(e) {
-  var id = this.getAttribute("data-id");
-  showDetails(id);
-  highlightNode(id);
-  highlightNeighbors(id);
-  var connected = neighbors[id].concat(id);
-  zoomToNetwork(connected);
 }));
 
 $(".sequences [data-sequence]").forEach(el => el.addEventListener("click", function(e) {
@@ -167,12 +158,13 @@ var localToUV = function(coords, bounds) {
   }
 };
 
-var mc = new Hammer(svg, {
-  pinch: { enable: true }
+var mc = new Hammer.Manager(svg, {
+  recognizers: [
+    [ Hammer.Pinch, { enable: true } ],
+    [ Hammer.Pan, { direction: Hammer.DIRECTION_ALL }],
+    [ Hammer.Tap ]
+  ]
 });
-
-mc.get("pan").set({ direction: Hammer.DIRECTION_ALL });
-mc.get("pinch").set({ enable: true });
 
 var initState = function(e) {
   state.viewbox = decodeViewbox();
@@ -221,4 +213,14 @@ svg.addEventListener("wheel", function(e) {
   };
   initState(event);
   onTouch(event);
+});
+
+mc.on("tap", function(e) {
+  var id = e.target.getAttribute("data-id");
+  if (!id) return;
+  showDetails(id);
+  highlightNode(id);
+  highlightNeighbors(id);
+  var connected = neighbors[id].concat(id);
+  zoomToNetwork(connected);
 });
