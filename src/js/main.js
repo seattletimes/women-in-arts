@@ -55,7 +55,7 @@ var zoomToNetwork = function(ids) {
   if (!(ids instanceof Array)) ids = [ids];
   var selector = ids.map(id => `.node-${id}`).join(", ");
   var nodes = savage(selector);
-  camera.zoomTo(nodes, 100);
+  camera.zoomTo(nodes, nodes.elements.length > 4 ? 100 : 400);
 };
 
 // open the details panel
@@ -93,7 +93,7 @@ var showSequence = function(sequence, stage) {
   }
   var nodes = savage(selector);
   if (s.focus !== "*") nodes.addClass("highlight");
-  camera.zoomTo(nodes, nodes.elements.length > 2 ? 100: 400);
+  camera.zoomTo(nodes, nodes.elements.length > 4 ? 100: 400);
   setSequenceText(sequence, stage);
   state.selected = null;
   container.classList.remove("open-details");
