@@ -11,14 +11,6 @@
 
     <responsive-child>
       <main class="interactive">
-        <div class="narrative">
-          <nav class="sequences">
-            <a data-sequence="intro" class="selected">Intro</a>
-            <a data-sequence="gates">Mimi Gardner Gates</a>
-            <a data-sequence="ingram">Davida Ingram</a>
-          </nav>
-          <div class="caption"></div>
-        </div>
         <div class="graph-view">
           <div class="svg-container">
             <%= t.include("./assets/network.svg") %>
@@ -27,6 +19,14 @@
             <a class="close">&times;</a>
             <div class="content"></div>
           </div>
+        </div>
+        <div class="narrative">
+          <nav class="sequences">
+            <a data-sequence="intro" class="selected">Intro</a>
+            <a data-sequence="gates">Mimi Gardner Gates</a>
+            <a data-sequence="ingram">Davida Ingram</a>
+          </nav>
+          <div class="caption"></div>
         </div>
       </main>
     </responsive-child>

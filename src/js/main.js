@@ -9,8 +9,8 @@ var Hammer = require("hammerjs");
 
 var { edgeLookup, nodeLookup, neighbors, sequences } = require("./setup");
 
+var container = document.querySelector(".interactive");
 var caption = document.querySelector(".narrative .caption");
-var container = document.querySelector(".graph-view");
 var svg = document.querySelector("svg");
 var details = document.querySelector(".detail-panel .content");
 
@@ -19,8 +19,6 @@ var detailTemplate = dot.compile(require("./_details.html"));
 var savage = window.savage = require("savage-query");
 var SVGCamera = require("savage-camera");
 var camera = window.camera = new SVGCamera(svg);
-
-// camera.zoomTo(savage("circle"), 100);
 
 var state = {
   selected: null,
@@ -96,15 +94,23 @@ var showSequence = function(sequence, stage) {
   var nodes = savage(selector);
   if (s.focus !== "*") nodes.addClass("highlight");
   camera.zoomTo(nodes, nodes.elements.length > 2 ? 100: 400);
+  setSequenceText(sequence, stage);
+  state.selected = null;
+  container.classList.remove("open-details");
 };
 
 var setSequenceText = function(sequence, stage) {
   var html = sequences[sequence][stage].text;
   if (sequences[sequence][stage + 1]) {
     html += `<a class="next" data-sequence="${sequence}" data-index="${stage + 1}">Continue &raquo;</a>`
+  } else {
+    html += `<a class="out">Return &raquo;</a>`
   }
   caption.innerHTML = html;
 };
+
+// init the sequences
+showSequence("chatter", 0);
 
 // mouse/platform-independent code
 
@@ -126,7 +132,6 @@ $(".sequences [data-sequence]").forEach(el => el.addEventListener("click", funct
   clearHighlights();
   var sequence = this.getAttribute("data-sequence");
   showSequence(sequence, 0);
-  setSequenceText(sequence, 0);
 }));
 
 caption.addEventListener("click", function(e) {
@@ -134,7 +139,9 @@ caption.addEventListener("click", function(e) {
     var sequence = e.target.getAttribute("data-sequence");
     var index = e.target.getAttribute("data-index") * 1;
     showSequence(sequence, index);
-    setSequenceText(sequence, index);
+  }
+  if (e.target.classList.contains("out")) {
+    showSequence("chatter", 0);
   }
 });
 
@@ -204,6 +211,7 @@ var onTouch = function(e) {
 mc.on("pinch pan", onTouch);
 
 svg.addEventListener("wheel", function(e) {
+  e.preventDefault();
   var event = {
     center: {
       x: e.clientX,

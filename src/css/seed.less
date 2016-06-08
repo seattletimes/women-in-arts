@@ -10,6 +10,12 @@
 .narrative {
   .display-flex();
 
+  .open-details & {
+    @media @mobile {
+      display: none;
+    }
+  }
+
   .sequences {
     border-right: 1px solid @df-blue;
 
@@ -46,7 +52,7 @@
     .align-self(center);
     padding: 16px;
 
-    .next {
+    .next, .out {
       display: block;
       text-align: right;
       cursor: pointer;
@@ -58,6 +64,12 @@
   .display-flex();
   height: 600px;
   max-height: 80vh;
+
+  @media @mobile {
+    display: block;
+    height: auto;
+    max-height: auto;
+  }
 
   .svg-container {
     .flex(1 1 100%);
@@ -74,9 +86,19 @@
 
   @open-width: 240px;
 
+  @media @mobile {
+    height: 0;
+    width: 100%;
+  }
+
   .open-details & {
     width: @open-width;
     .flex(0 0 @open-width);
+
+    @media @mobile {
+      height: auto;
+      width: auto;
+    }
   }
 
   .close {
@@ -91,6 +113,10 @@
   .content {
     width: @open-width;
     padding: 32px 16px;
+
+    @media @mobile {
+      width: 100%;
+    }
   }
 
   h2 {

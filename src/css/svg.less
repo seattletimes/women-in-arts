@@ -3,9 +3,13 @@
   position: relative;
 
   &::before {
-    // content: "";
-    display: block;
+    content: "";
+    display: none;
     padding-bottom: percentage(2017 / 2046);
+
+    @media @mobile {
+      display: block;
+    }
   }
 
   svg {
