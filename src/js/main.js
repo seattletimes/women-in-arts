@@ -8,6 +8,7 @@ var dot = require("./lib/dot");
 var Hammer = require("hammerjs");
 
 var { edgeLookup, nodeLookup, neighbors, sequences } = require("./setup");
+var { decodeViewbox, clientToLocal, localToUV } = require("./utils");
 
 var container = document.querySelector(".interactive");
 var caption = document.querySelector(".narrative .caption");
@@ -152,25 +153,6 @@ caption.addEventListener("click", function(e) {
 });
 
 // multitouch support
-var decodeViewbox = function() {
-  var [x, y, width, height] = svg.getAttribute("viewBox").split(" ").map(Number);
-  return { x, y, width, height };
-};
-
-var clientToLocal = function(coords, bounds) {
-  return {
-    x: coords.x - bounds.left,
-    y: coords.y - bounds.top
-  }
-};
-
-var localToUV = function(coords, bounds) {
-  return {
-    x: coords.x / bounds.width,
-    y: coords.y / bounds.height
-  }
-};
-
 var mc = new Hammer.Manager(svg, {
   recognizers: [
     [ Hammer.Pinch, { enable: true } ],
@@ -179,13 +161,13 @@ var mc = new Hammer.Manager(svg, {
   ]
 });
 
-var initState = function(e) {
-  state.viewbox = decodeViewbox();
+var saveState = function(e) {
+  state.viewbox = decodeViewbox(svg);
   state.bounds = svg.getBoundingClientRect();
   state.start = clientToLocal({ x: e.center.x, y: e.center.y }, state.bounds);
 };
 
-mc.on("panstart pinchstart pinchend", initState);
+mc.on("panstart pinchstart pinchend", saveState);
 
 var onTouch = function(e) {
   var center = clientToLocal(e.center, state.bounds);
@@ -225,7 +207,7 @@ svg.addEventListener("wheel", function(e) {
     },
     scale: e.deltaY < 0 ? 1.2 : .8
   };
-  initState(event);
+  saveState(event);
   onTouch(event);
 });
 
