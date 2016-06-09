@@ -152,6 +152,27 @@ caption.addEventListener("click", function(e) {
   }
 });
 
+// limit the viewbox
+var circleBounds = savage("circle").getBBox();
+var viewLimit = {
+  left: circleBounds.x,
+  right: circleBounds.x + circleBounds.width,
+  top: circleBounds.y,
+  bottom: circleBounds.y + circleBounds.height
+};
+
+var setView = function(box) {
+  var left = viewLimit.left - box.width / 2;
+  var right = viewLimit.right - box.width / 2;
+  var top = viewLimit.top - box.height / 2;
+  var bottom = viewLimit.bottom - box.height / 2;
+  if (box.x < left) box.x = left;
+  if (box.x > right) box.x = right;
+  if (box.y < top) box.y = top;
+  if (box.y > bottom) box.y = bottom;
+  svg.setAttribute("viewBox", [box.x, box.y, box.width, box.height].join(" "));
+}
+
 // multitouch support
 var mc = new Hammer.Manager(svg, {
   recognizers: [
@@ -192,8 +213,7 @@ var onTouch = function(e) {
     x: state.viewbox.x - shift.x,
     y: state.viewbox.y - shift.y
   };
-  var boxString = [box.x, box.y, box.width, box.height].join(" ");
-  svg.setAttribute("viewBox", boxString);
+  setView(box);
 };
 
 mc.on("pinch pan", onTouch);
