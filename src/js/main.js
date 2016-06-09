@@ -149,6 +149,7 @@ caption.addEventListener("click", function(e) {
   if (e.target.classList.contains("out")) {
     showSequence("chatter", 0);
     clearHighlights();
+    document.querySelector("[data-sequence].selected").classList.remove("selected");
   }
 });
 
@@ -166,11 +167,13 @@ var setView = function(box) {
   var right = viewLimit.right - box.width / 2;
   var top = viewLimit.top - box.height / 2;
   var bottom = viewLimit.bottom - box.height / 2;
+  var safe = box.x > left && box.x < right && box.y > top && box.y < bottom;
   if (box.x < left) box.x = left;
   if (box.x > right) box.x = right;
   if (box.y < top) box.y = top;
   if (box.y > bottom) box.y = bottom;
   svg.setAttribute("viewBox", [box.x, box.y, box.width, box.height].join(" "));
+  return safe;
 }
 
 // multitouch support
