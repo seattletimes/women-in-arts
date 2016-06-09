@@ -104,7 +104,7 @@ var setSequenceText = function(sequence, stage) {
   var html = sequences[sequence][stage].text;
   if (sequences[sequence][stage + 1]) {
     html += `<a class="next" data-sequence="${sequence}" data-index="${stage + 1}">Continue &raquo;</a>`
-  } else {
+  } else if (sequence != "chatter") {
     html += `<a class="out">Reset &raquo;</a>`
   }
   caption.innerHTML = html;

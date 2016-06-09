@@ -94,10 +94,12 @@
   .open-details & {
     width: @open-width;
     .flex(0 0 @open-width);
+    box-shadow: -8px 0 8px -4px fade(black, 10%);
 
     @media @mobile {
       height: auto;
       width: auto;
+      box-shadow: 0 -8px 8px -4px fade(black, 10%);
     }
   }
 
