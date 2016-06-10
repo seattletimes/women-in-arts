@@ -1,11 +1,13 @@
 <h2><%= data.node.label %></h2>
 <h3><%= data.node.title %></h3>
 
-<% data.edges.filter(function(e) { return e.editedQuote }).forEach(function(e) { %>
-<div class="quote">
-  <blockquote>
-    <%= e.editedQuote %>
-  </blockquote>
-  <cite> &mdash; <%= e.from %></cite>
+<div class="quotes">
+  <% data.edges.filter(function(e) { return e.editedQuote }).forEach(function(e) { %>
+  <div class="quote">
+    <blockquote>
+      <%= e.editedQuote %>
+    </blockquote>
+    <cite> &mdash; <%= e.from %></cite>
+  </div>
+  <% }); %>
 </div>
-<% }); %>
