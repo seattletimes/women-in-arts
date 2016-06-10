@@ -160,21 +160,26 @@ var viewLimit = {
   left: circleBounds.x,
   right: circleBounds.x + circleBounds.width,
   top: circleBounds.y,
-  bottom: circleBounds.y + circleBounds.height
+  bottom: circleBounds.y + circleBounds.height,
+  width: circleBounds.width * 1.1,
+  height: circleBounds.height * 1.1
 };
 
 var setView = function(box) {
+  if (box.width > viewLimit.width || box.height > viewLimit.height) {
+    box.width = viewLimit.width;
+    box.height = viewLimit.height;
+    return true;
+  }
   var left = viewLimit.left - box.width / 2;
   var right = viewLimit.right - box.width / 2;
   var top = viewLimit.top - box.height / 2;
   var bottom = viewLimit.bottom - box.height / 2;
-  var safe = box.x > left && box.x < right && box.y > top && box.y < bottom;
   if (box.x < left) box.x = left;
   if (box.x > right) box.x = right;
   if (box.y < top) box.y = top;
   if (box.y > bottom) box.y = bottom;
   svg.setAttribute("viewBox", [box.x, box.y, box.width, box.height].join(" "));
-  return safe;
 }
 
 // multitouch support
@@ -217,7 +222,9 @@ var onTouch = function(e) {
     x: state.viewbox.x - shift.x,
     y: state.viewbox.y - shift.y
   };
-  setView(box);
+  if (setView(box)) {
+    saveState(e);
+  }
 };
 
 mc.on("pinch pan", onTouch);
