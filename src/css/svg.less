@@ -20,7 +20,7 @@
     height: 100%;
 
     path {
-      stroke: black;
+      stroke: @df-light-gray;
       stroke-width: 3px;
       fill: none;
 
@@ -47,13 +47,20 @@
     }
 
     circle {
-      fill: @st-light-purple;
+      fill: @df-light-gray;
       transition: all .2s linear;
+
+      @highlight: @st-dark-orange;
+
+      &.Leader { fill: @st-light-red }
+      &.Curator { fill: @st-light-green }
+      &.Gallery.Owner { fill: @st-light-blue }
+      &.Artist { fill: @st-light-purple }
 
       &:hover,
       &:focus,
       &.neighbor {
-        fill: @st-dark-orange;
+        fill: @highlight;
 
         & + text {
           opacity: .7;
@@ -65,7 +72,7 @@
       &:focus,
       &.highlight {
         opacity: 1;
-        fill: @st-dark-orange;
+        fill: @highlight;
 
         & + text {
           font-size: 40px;

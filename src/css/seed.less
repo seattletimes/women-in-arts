@@ -7,6 +7,43 @@
   margin: auto;
 }
 
+.intro {
+  h1 {
+    font-size: 24px;
+  }
+
+  .chatter {
+    font-size: 15px;
+  }
+}
+
+.key {
+  margin: 0 0 16px;
+  padding: 0;
+  list-style-type: none;
+  text-align: center;
+  font-size: 14px;
+
+  li {
+    margin: 0 8px;
+    display: inline-block;
+  }
+
+  .bubble {
+    background: @df-light-gray;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    vertical-align: middle;
+
+    &.Leader { background: @st-light-red }
+    &.Curator { background: @st-light-green }
+    &.Gallery.Owner { background: @st-light-blue }
+    &.Artist { background: @st-light-purple }
+  }
+}
+
 .narrative {
   .display-flex();
 

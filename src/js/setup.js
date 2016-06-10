@@ -4,10 +4,13 @@ var neighbors = {};
 
 var svg = document.querySelector("svg");
 var namespace = svg.getAttribute("xmlns");
+var savage = require("savage-query");
 
 window.network.nodes.forEach(function(row, i) {
   var node = svg.querySelector(`.node-${row.id}`);
   if (node) {
+    var $node = savage(node);
+    $node.addClass(row.category);
     //add the label text to the SVG
     var label = row.label;
     var t = document.createElementNS(namespace, "text");
