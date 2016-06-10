@@ -161,8 +161,8 @@ var viewLimit = {
   right: circleBounds.x + circleBounds.width,
   top: circleBounds.y,
   bottom: circleBounds.y + circleBounds.height,
-  width: circleBounds.width * 1.1,
-  height: circleBounds.height * 1.1
+  width: circleBounds.width * 1.3,
+  height: circleBounds.height * 1.3
 };
 
 var setView = function(box) {
@@ -244,7 +244,7 @@ svg.addEventListener("wheel", function(e) {
 
 mc.on("tap", function(e) {
   var id = e.target.getAttribute("data-id");
-  if (!id) return;
+  if (!id || id == state.selected) return;
   showDetails(id);
   highlightNode(id);
   highlightNeighbors(id);
