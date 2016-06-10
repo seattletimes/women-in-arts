@@ -96,7 +96,6 @@ var showSequence = function(sequence, stage) {
   if (s.focus !== "*") nodes.addClass("highlight");
   camera.zoomTo(nodes, nodes.elements.length > 4 ? 100: 400);
   setSequenceText(sequence, stage);
-  state.selected = null;
   container.classList.remove("open-details");
 };
 
@@ -132,6 +131,7 @@ circles.forEach(el => el.addEventListener("mouseout", function(e) {
 // sequence UI
 
 $(".sequences [data-sequence]").forEach(el => el.addEventListener("click", function(e) {
+  state.selected = true;
   var previous = document.querySelector("[data-sequence].selected");
   if (previous) previous.classList.remove("selected");
   this.classList.add("selected");
@@ -149,6 +149,7 @@ caption.addEventListener("click", function(e) {
   if (e.target.classList.contains("out")) {
     showSequence("chatter", 0);
     clearHighlights();
+    state.selected = false;
     document.querySelector("[data-sequence].selected").classList.remove("selected");
   }
 });
