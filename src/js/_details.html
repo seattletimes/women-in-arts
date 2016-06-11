@@ -7,7 +7,7 @@
     <blockquote>
       <%= e.editedQuote %>
     </blockquote>
-    <cite> &mdash; <%= e.from %></cite>
+    <cite> &mdash; <%= e.from.replace("*", "") %></cite>
   </div>
   <% }); %>
 </div>
