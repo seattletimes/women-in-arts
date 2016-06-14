@@ -144,6 +144,7 @@ caption.addEventListener("click", function(e) {
   if (e.target.classList.contains("next")) {
     var sequence = e.target.getAttribute("data-sequence");
     var index = e.target.getAttribute("data-index") * 1;
+    clearHighlights();
     showSequence(sequence, index);
   }
   if (e.target.classList.contains("out")) {
@@ -251,3 +252,13 @@ mc.on("tap", function(e) {
   var connected = neighbors[id].concat(id);
   zoomToNetwork(connected);
 });
+
+// jump links
+$(".jump-links a.jump").forEach(el => el.addEventListener("click", function() {
+  var id = this.getAttribute("data-id");
+  showDetails(id);
+  highlightNode(id);
+  highlightNeighbors(id);
+  var connected = neighbors[id].concat(id);
+  zoomToNetwork(connected);
+}));

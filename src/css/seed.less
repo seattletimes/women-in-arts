@@ -1,10 +1,16 @@
 @import "seattletimes";
 @import "svg";
 
+@height: 600px;
+
 .interactive {
   font-family: @df-sans;
+  font-size: 15px;
   max-width: 630px;
-  margin: auto;
+  margin: 20px auto;
+  padding: 20px;
+  border-top: 1px solid @df-light-gray;
+  border-bottom: 1px solid @df-light-gray;
 }
 
 .intro {
@@ -41,6 +47,21 @@
     &.Curator { background: @st-light-green }
     &.Owner { background: @st-light-orange }
     &.Artist { background: @st-light-purple }
+  }
+}
+
+.jump-links {
+  text-align: center;
+  padding: 8px 0;
+  label {
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    border-bottom: 1px solid @df-light-gray;
+  }
+
+  a {
+    cursor: pointer;
   }
 }
 
@@ -100,7 +121,7 @@
 
 .graph-view {
   .display-flex();
-  height: 600px;
+  height: @height;
   max-height: 80vh;
 
   @media @mobile {
@@ -153,6 +174,7 @@
   .content {
     width: @open-width;
     max-height: 100%;
+    height: @height;
     padding: 32px 16px;
     .display-flex();
     .flex-direction(column);
