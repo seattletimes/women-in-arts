@@ -3,10 +3,15 @@
 
 @height: 600px;
 
+.constrained {
+  max-width: 630px;
+  margin: auto;
+}
+
 .interactive {
   font-family: @df-sans;
   font-size: 15px;
-  max-width: 630px;
+  max-width: 960px;
   margin: 20px auto;
   padding: 20px;
   border-top: 1px solid @df-light-gray;
@@ -53,11 +58,12 @@
 .jump-links {
   text-align: center;
   padding: 8px 0;
+
   label {
+    font-size: 13px;
     display: block;
     text-align: center;
     text-transform: uppercase;
-    border-bottom: 1px solid @df-light-gray;
   }
 
   a {
@@ -124,6 +130,12 @@
   height: @height;
   max-height: 80vh;
 
+  cursor: grab;
+
+  .dragging & {
+    cursor: grabbing;
+  }
+
   @media @mobile {
     display: block;
     height: auto;
@@ -142,7 +154,7 @@
   position: relative;
   font-size: 14px;
 
-  @open-width: 240px;
+  @open-width: 360px;
 
   @media @mobile {
     height: 0;
@@ -215,4 +227,11 @@
     display: block;
     text-align: right;
   }
+}
+
+.byline {
+  text-align: right;
+  font-size: 13px;
+  font-style: italic;
+  padding-top: 20px;
 }

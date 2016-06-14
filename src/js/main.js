@@ -199,6 +199,8 @@ var saveState = function(e) {
 };
 
 mc.on("panstart pinchstart pinchend", saveState);
+mc.on("panstart", () => container.classList.add("dragging"));
+mc.on("panend", () => container.classList.remove("dragging"));
 
 var onTouch = function(e) {
   var center = clientToLocal(e.center, state.bounds);
