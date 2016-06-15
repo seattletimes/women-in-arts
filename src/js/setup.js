@@ -15,6 +15,9 @@ window.network.nodes.forEach(function(row, i) {
     var label = row.label;
     var t = document.createElementNS(namespace, "text");
     t.innerHTML = label;
+    if (row.photo) {
+      t.setAttribute("class", "photo");
+    }
     var g = document.createElementNS(namespace, "g");
     node.parentElement.replaceChild(g, node);
     g.appendChild(node);
