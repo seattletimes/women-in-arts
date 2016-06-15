@@ -20,7 +20,7 @@
     height: 100%;
 
     path {
-      stroke: @df-light-gray;
+      stroke: @df-middle-gray;
       stroke-width: 3px;
       fill: none;
 
@@ -55,28 +55,34 @@
       @highlight: @st-dark-orange;
 
       &.Leader { fill: @st-light-red }
-      &.Curator { fill: @st-light-green }
+      &.Curator { fill: spin(@st-light-green, 80) }
       &.Owner { fill: @st-light-orange }
       &.Artist { fill: @st-light-purple }
 
       &:hover,
       &:focus,
       &.neighbor {
-        fill: @highlight;
+        // fill: @highlight;
+        stroke: @df-middle-gray;
+        stroke-width: 3;
 
         & + text {
-          opacity: .7;
+          opacity: .9;
           fill: @df-dark-gray;
+          // font-style: italic;
 
           &.photo {
-            fill: darken(@df-blue, 10%);
+            fill: darken(@df-blue, 20%);
+            // font-style: normal;
           }
         }
       }
 
       &.highlight {
         opacity: 1;
-        fill: @highlight;
+        stroke: @df-dark-gray;
+        stroke-width: 3;
+        // fill: @highlight;
 
         & + text {
           font-size: 40px;

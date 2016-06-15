@@ -110,7 +110,7 @@ var setSequenceText = function(sequence, stage) {
 };
 
 // init the sequences
-showSequence("chatter", 0);
+showSequence("intro", 0);
 
 // Hover UI for network graph
 

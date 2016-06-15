@@ -49,7 +49,7 @@
     vertical-align: middle;
 
     &.Leader { background: @st-light-red }
-    &.Curator { background: @st-light-green }
+    &.Curator { background: spin(@st-light-green, 80) }
     &.Owner { background: @st-light-orange }
     &.Artist { background: @st-light-purple }
   }
@@ -76,7 +76,7 @@
 
   .open-details & {
     @media @mobile {
-      display: none;
+      // display: none;
     }
   }
 
@@ -117,6 +117,10 @@
     .align-self(center);
     padding: 16px;
 
+    @media @mobile {
+      font-size: 14px;
+    }
+
     .next, .out {
       display: block;
       text-align: right;
@@ -128,7 +132,6 @@
 .graph-view {
   .display-flex();
   height: @height;
-  max-height: 80vh;
 
   cursor: grab;
 
