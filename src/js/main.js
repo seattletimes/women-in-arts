@@ -78,11 +78,20 @@ closeButton.addEventListener("click", () => {
 });
 
 // fun with sequences
+var sequenceOrder = "intro gates ingram adams chatter".split(" ");
 
 var showSequence = function(sequence, stage) {
   if (!(sequence in sequences)) return;
   var s = sequences[sequence][stage];
-  if (!s) return;
+  if (!s) {
+    var sIndex = sequenceOrder.indexOf(sequence);
+    var next = sequenceOrder[sIndex + 1];
+    return showSequence(next, 0);
+  }
+  var prevDot = document.querySelector(".sequences .active");
+  if (prevDot) prevDot.classList.remove("active");
+  var currentDot = document.querySelector(`.sequences [data-stage="${sequence}-${stage}"]`);
+  if (currentDot) currentDot.classList.add("active");
   if (s.focus == "*") {
     var selector = "circle";
   } else {
@@ -101,10 +110,9 @@ var showSequence = function(sequence, stage) {
 
 var setSequenceText = function(sequence, stage) {
   var html = sequences[sequence][stage].text;
-  if (sequences[sequence][stage + 1]) {
-    html += `<a class="next" data-sequence="${sequence}" data-index="${stage + 1}">Continue &raquo;</a>`
-  } else if (sequence != "chatter") {
-    html += `<a class="out">Reset &raquo;</a>`
+  var continues = !!sequences[sequence][stage + 1];
+  if (sequence != "chatter") {
+    html += `<a class="next" data-sequence="${sequence}" data-index="${stage + 1}">Next &raquo;</a>`
   }
   caption.innerHTML = html;
 };
@@ -112,32 +120,17 @@ var setSequenceText = function(sequence, stage) {
 // init the sequences
 showSequence("intro", 0);
 
-// Hover UI for network graph
-
-var circles = $("circle");
-
-circles.forEach(el => el.addEventListener("mouseover", function(e) {
-  if (state.selected) return;
-  var id = this.getAttribute("data-id");
-  highlightNode(id);
-  highlightNeighbors(id);
-}));
-
-circles.forEach(el => el.addEventListener("mouseout", function(e) {
-  if (state.selected) return;
-  clearHighlights();
-}));
-
 // sequence UI
 
-$(".sequences [data-sequence]").forEach(el => el.addEventListener("click", function(e) {
+$(".sequences [data-stage]").forEach(el => el.addEventListener("click", function(e) {
   state.selected = true;
-  var previous = document.querySelector("[data-sequence].selected");
-  if (previous) previous.classList.remove("selected");
+  var [ sequence, stage ] = this.getAttribute("data-stage").split("-");
+  stage *= 1;
+  var previous = document.querySelector("[data-sequence].active");
+  if (previous) previous.classList.remove("active");
   this.classList.add("selected");
   clearHighlights();
-  var sequence = this.getAttribute("data-sequence");
-  showSequence(sequence, 0);
+  showSequence(sequence, stage);
 }));
 
 caption.addEventListener("click", function(e) {
@@ -154,6 +147,22 @@ caption.addEventListener("click", function(e) {
     document.querySelector("[data-sequence].selected").classList.remove("selected");
   }
 });
+
+// Hover UI for network graph
+
+var circles = $("circle");
+
+circles.forEach(el => el.addEventListener("mouseover", function(e) {
+  if (state.selected) return;
+  var id = this.getAttribute("data-id");
+  highlightNode(id);
+  highlightNeighbors(id);
+}));
+
+circles.forEach(el => el.addEventListener("mouseout", function(e) {
+  if (state.selected) return;
+  clearHighlights();
+}));
 
 // limit the viewbox
 var circleBounds = savage("circle").getBBox();
@@ -254,13 +263,3 @@ mc.on("tap", function(e) {
   var connected = neighbors[id].concat(id);
   zoomToNetwork(connected);
 });
-
-// jump links
-$(".jump-links a.jump").forEach(el => el.addEventListener("click", function() {
-  var id = this.getAttribute("data-id");
-  showDetails(id);
-  highlightNode(id);
-  highlightNeighbors(id);
-  var connected = neighbors[id].concat(id);
-  zoomToNetwork(connected);
-}));

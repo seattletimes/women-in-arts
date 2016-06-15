@@ -72,7 +72,6 @@
 }
 
 .narrative {
-  .display-flex();
 
   .open-details & {
     @media @mobile {
@@ -81,33 +80,38 @@
   }
 
   .sequences {
-    border-right: 1px solid @df-blue;
-    .flex(1 1 33%);
+    text-align: center;
 
     a {
-      display: block;
+      display: inline-block;
       cursor: pointer;
       text-align: center;
-      padding: 4px 10px;
+      padding: 4px 6px;
       font-size: 13px;
+      border-radius: 10px;
 
       &:hover, &:focus, {
         background: fade(@df-blue, 50%);
         color: @df-off-white;
       }
 
-      &.selected {
+      &.active {
         background: @df-blue;
         color: @df-off-white;
         position: relative;
+      }
+    }
 
-        &::after {
-          content: ">";
-          position: absolute;
-          right: 4px;
-          top: 4px;
-          color: white;
-        }
+    .sequence-dot {
+      width: 12px;
+      height: 12px;
+      border-radius: 100%;
+      background: @df-light-gray;
+      display: inline-block;
+      vertical-align: middle;
+
+      &.active {
+        background: @df-blue;
       }
     }
   }
