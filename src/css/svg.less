@@ -44,6 +44,13 @@
       opacity: 0;
       pointer-events: none;
       font-weight: bold;
+      font-style: italic;
+      fill: @df-dark-gray;
+
+      &.photo, &.quote {
+        font-style: normal;
+        fill: darken(@df-blue, 15%);
+      }
     }
 
     circle {
@@ -68,13 +75,6 @@
 
         & + text {
           opacity: .9;
-          fill: @df-dark-gray;
-          // font-style: italic;
-
-          &.photo {
-            fill: darken(@df-blue, 20%);
-            // font-style: normal;
-          }
         }
       }
 
