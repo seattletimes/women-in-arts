@@ -1,0 +1,1456 @@
+[
+  {
+    "source": 65,
+    "a": "Alice Wheeler",
+    "target": 58,
+    "b": "Diana Adams",
+    "relationship": "Mentor"
+  },
+  {
+    "source": 56,
+    "a": "Amanda Manitach",
+    "target": 58,
+    "b": "Diana Adams",
+    "relationship": "Collaborator",
+    "quote": "for the multiple art shows I’ve had in Vermillion over the years, especially when I was just beginning to show work. She is ever giving, flexible, supportive of young artists. ",
+    "from": "Amanda Manitach",
+    "editedQuote": "She is ever giving, flexible, supportive of young artists. "
+  },
+  {
+    "source": 56,
+    "a": "Amanda Manitach",
+    "target": 73,
+    "b": "Isvald Klingels",
+    "relationship": "Collaborator",
+    "quote": "I’ve collaborated with her on a number of projects, but many years ago we co-curated a show at Vermillion about obsessive drawing, which included artists from Seattle, Italy, Portland and LA. She is so talented and has incredible taste. "
+  },
+  {
+    "source": 56,
+    "a": "Amanda Manitach",
+    "target": 80,
+    "b": "Klara Glosova",
+    "relationship": "Collaborator",
+    "quote": "I’ve assisted her on art projects, traveled with her, exhibited in Nepo 5K and Nepo House. Grass roots goddess and such a powerhouse in the arts scene, providing a platform for emerging artists over and over. Also an accomplished artist in her own right. "
+  },
+  {
+    "source": 1,
+    "a": "Anne d'Harnoncourt",
+    "target": 12,
+    "b": "Kimerly Rorschach",
+    "relationship": "Mentorship",
+    "from": "Kimerly Rorschach*",
+    "editedQuote": "[Anne d'Harnoncourt, Katharine Lee Reid,Mimi Gardner Gates] All women directors of major art museums who helped me along the way in matters large and small."
+  },
+  {
+    "source": 67,
+    "a": "Aramis Hamer",
+    "target": 68,
+    "b": "Caitlin Clark",
+    "relationship": "Mentor-Peer",
+    "quote": "We're just three cool girls who just decided to come together and create art. So, we met each other at...I think it was Artist Trust it was either Artist Up or Artist Trust. They had a networking event for black artists to come out, at NAAM, Northwest African American Museum. ",
+    "from": "Aramis Hamer*",
+    "editedQuote": "[Of Caitlin Clark and Monica Washingon] We're just three cool girls who just decided to come together and create art."
+  },
+  {
+    "source": 67,
+    "a": "Aramis Hamer",
+    "target": 86,
+    "b": "Monica Washington",
+    "relationship": "Mentor-Peer",
+    "from": "Aramis Hamer",
+    "editedQuote": "[Of Caitlin Clark and Monica Washingon] We're just three cool girls who just decided to come together and create art."
+  },
+  {
+    "source": 2,
+    "a": "Barbara Earl Thomas",
+    "target": 96,
+    "b": "Alex Curio",
+    "relationship": "Mentorship",
+    "quote": "Development person who entered my NAAM afterlife. She has allowed me, in her generosity, to take her to the edge of her comfort zone — I’ve watched her gain in courage and confidence.",
+    "from": "Barbara Earl Thomas"
+  },
+  {
+    "source": 2,
+    "a": "Barbara Earl Thomas",
+    "target": 98,
+    "b": "Chieko Phillips",
+    "relationship": "Mentorship",
+    "quote": "Part of the second wave of NAAM staff who was fresh out of university.  It was my pleasure to watch her translate between theory and real life application.  It was and is still a joy to hear, see and get her questions.",
+    "from": "Barbara Earl Thomas"
+  },
+  {
+    "source": 2,
+    "a": "Barbara Earl Thomas",
+    "target": 69,
+    "b": "Davida Ingram",
+    "relationship": "Mentorship",
+    "quote": "Artist and true thinker — not sure what I do or may have done for her, but it has been my pleasure to watch her bring her art to life and share in her questions as she shapes her vision and applies it to the world.",
+    "from": "Barbara Earl Thomas"
+  },
+  {
+    "source": 2,
+    "a": "Barbara Earl Thomas",
+    "target": 69,
+    "b": "Davida Ingram",
+    "relationship": "Mentorship"
+  },
+  {
+    "source": 2,
+    "a": "Barbara Earl Thomas",
+    "target": 105,
+    "b": "Leilani Lewis",
+    "relationship": "Mentorship",
+    "quote": "Part of the inaugural staff at NAAM a young woman in whom I could see all kinds of the best stuff.  Moreover, she was someone who reminded my of my younger self, who was in many ways self educated and just a bit behind the curve but so full of willingness.  I wanted to be the person, to her, that I needed when I was her age—she has been a gift.",
+    "from": "Barbara Earl Thomas",
+    "editedQuote": "I wanted to be the person, to her, that I needed when I was her age—she has been a gift."
+  },
+  {
+    "source": 2,
+    "a": "Barbara Earl Thomas",
+    "target": 62,
+    "b": "Tariqa Waters",
+    "relationship": "Mentorship"
+  },
+  {
+    "source": 55,
+    "a": "Barbara Goldstein",
+    "target": 47,
+    "b": "Ruri Yampolsky",
+    "relationship": "Mentorship",
+    "quote": " managed the public art program in the early 1990’s, was the person who hired me into public art. (Also, Ellen Sollod, who was the director of the agency at the time I was hired, and with whom I’ve had a professional relationship over the years)."
+  },
+  {
+    "source": 27,
+    "a": "Barbara Johns",
+    "target": 2,
+    "b": "Barbara Earl Thomas",
+    "relationship": "Mentorship",
+    "quote": "Curator and museum person lent her expertise, time and energy to help reshape all kinds of documents including a dreaded business plan necessary to all these endeavors.  She, working countless hours with staff and a volunteer committee planned and helped install the first exhibit at NAAM. All this while I was raising the dough and trying to finish all the unfinished business of a new building.  ",
+    "from": "Barbara Earl Thomas",
+    "editedQuote": "She, working countless hours with staff and a volunteer committee planned and helped install the first exhibit at NAAM."
+  },
+  {
+    "source": 27,
+    "a": "Barbara Johns",
+    "target": 25,
+    "b": "Rosanna Sharpe",
+    "relationship": "Mentor",
+    "quote": "Art historian and Former Curator and Former Interim Director, Tacoma Art Museum"
+  },
+  {
+    "source": 58,
+    "a": "Diana Adams",
+    "target": 99,
+    "b": "Elisheba Johnson",
+    "relationship": "Collaborator",
+    "quote": "Seattle Office of Arts and Culture, former owner of Faire Gallery, COLLECT"
+  },
+  {
+    "source": 57,
+    "a": "Beth Cullom",
+    "target": 61,
+    "b": "Sharon Arnold",
+    "relationship": "Mentor-Peer",
+    "quote": "Beth is another leader in the community from whom I have learned so much. Her support and encouragement for me and so many other people in Seattle has been invaluable, and appreciated beyond all measure. I admire her wisdom, aesthetic/curatorial sensibility, her drive and enthusiasm for her passion, and all that she has done to further artists she represents. ",
+    "from": "Sharon Arnold",
+    "editedQuote": "Her support and encouragement for me and so many other people in Seattle has been invaluable, and appreciated beyond all measure."
+  },
+  {
+    "source": 24,
+    "a": "Beth Takekawa",
+    "target": 95,
+    "b": "Diane Espaldon",
+    "relationship": "Mentorship",
+    "quote": "national arts & nonprofits consultant"
+  },
+  {
+    "source": 24,
+    "a": "Beth Takekawa",
+    "target": 101,
+    "b": "Ethelyn Abellanosa",
+    "relationship": "Mentorship",
+    "quote": "(artist and museum professional)"
+  },
+  {
+    "source": 24,
+    "a": "Beth Takekawa",
+    "target": 102,
+    "b": "Joy Shigaki",
+    "relationship": "Mentorship",
+    "quote": "(formerly served as The Wing’s capital campaign manager,  now works for Mayor DeBlasio in NYC)"
+  },
+  {
+    "source": 24,
+    "a": "Beth Takekawa",
+    "target": 84,
+    "b": "Misun Chung Gerrick",
+    "relationship": "Mentorship",
+    "quote": "architect)"
+  },
+  {
+    "source": 4,
+    "a": "Christina Orr-Cahall",
+    "target": 20,
+    "b": "Stephanie Stebich",
+    "relationship": "Mentorship",
+    "quote": "national arts & nonprofits consultant",
+    "from": "Stephanie Stebich",
+    "editedQuote": "Facilitated the recent major art and endowment gift to TAM from Becky Benaroya...(a) transformative gift of 225 works of NW art and almost $14M for new galleries and collection care funds."
+  },
+  {
+    "source": 38,
+    "a": "Claudia Bach",
+    "target": 48,
+    "b": "Shannon Halberstadt",
+    "relationship": "Mentorship",
+    "quote": "Claudia Bach, AdvisArts- I first met when we hired her as a consultant when I was working at Vera. She since encouraged me to participate in Leadership Tomorrow, has invited me to several presentation opportunities, and connected me with tons of people.",
+    "from": "Shannon Halberstadt",
+    "editedQuote": "I first met here ... when I was working at Vera. She since encouraged me to participate in Leadership Tomorrow, has invited me to several presentation opportunities, and connected me with tons of people."
+  },
+  {
+    "source": 38,
+    "a": "Claudia Bach",
+    "target": 50,
+    "b": "Vivian Phillips",
+    "relationship": "Mentorship",
+    "quote": "My ongoing, forever touchstone in the arts.  Smartest woman in the arts environment and have had the pleasure of collaborating with her on numerous projects.",
+    "from": "Vivian Phillips",
+    "editedQuote": "My ongoing, forever touchstone in the arts.  Smartest woman in the arts environment."
+  },
+  {
+    "source": 69,
+    "a": "Davida Ingram",
+    "target": 98,
+    "b": "Chieko Phillips",
+    "relationship": "Collaborator"
+  },
+  {
+    "source": 69,
+    "a": "Davida Ingram",
+    "target": 99,
+    "b": "Elisheba Johnson",
+    "relationship": "Collaborator"
+  },
+  {
+    "source": 69,
+    "a": "Davida Ingram",
+    "target": 7,
+    "b": "Jo-Anne Birnie Danzker",
+    "relationship": "Collaborator"
+  },
+  {
+    "source": 69,
+    "a": "Davida Ingram",
+    "target": 85,
+    "b": "Mo Avery",
+    "relationship": "Collaborator"
+  },
+  {
+    "source": 69,
+    "a": "Davida Ingram",
+    "target": 61,
+    "b": "Sharon Arnold",
+    "relationship": "Collaborator"
+  },
+  {
+    "source": 69,
+    "a": "Davida Ingram",
+    "target": 90,
+    "b": "Susie J. Lee",
+    "relationship": "Collaborator"
+  },
+  {
+    "source": 69,
+    "a": "Davida Ingram",
+    "target": 62,
+    "b": "Tariqa Waters",
+    "relationship": "Collaborator"
+  },
+  {
+    "source": 69,
+    "a": "Davida Ingram",
+    "target": 53,
+    "b": "Zola Mumford",
+    "relationship": "Collaborator"
+  },
+  {
+    "source": 58,
+    "a": "Diana Adams",
+    "target": 117,
+    "b": "Lorrie Scott Cardoso",
+    "relationship": "Collaborator",
+    "quote": "collaborates on COLLECT"
+  },
+  {
+    "source": 57,
+    "a": "Beth Cullom",
+    "target": 58,
+    "b": "Diana Adams",
+    "relationship": "Mentor-Peer"
+  },
+  {
+    "source": 58,
+    "a": "Diana Adams",
+    "target": 93,
+    "b": "Davora Lindner",
+    "relationship": "Collaborator"
+  },
+  {
+    "source": 58,
+    "a": "Diana Adams",
+    "target": 60,
+    "b": "Mariane Ibrahim",
+    "relationship": "Collaborator"
+  },
+  {
+    "source": 39,
+    "a": "Diane Shamash",
+    "target": 47,
+    "b": "Ruri Yampolsky",
+    "relationship": "Mentorship",
+    "quote": " managed the public art program in the early 1990’s, was the person who hired me into public art. (Also, Ellen Sollod, who was the director of the agency at the time I was hired, and with whom I’ve had a professional relationship over the years).",
+    "from": "Ruri Yampolsky",
+    "editedQuote": "(She) was the person who hired me into public art."
+  },
+  {
+    "source": 100,
+    "a": "Ellen Ferguson",
+    "target": 24,
+    "b": "Beth Takekawa",
+    "relationship": "Mentor",
+    "quote": "mentoring by long-time museum professional and philanthropist)"
+  },
+  {
+    "source": 59,
+    "a": "Francine Seders",
+    "target": 77,
+    "b": "Juliana Heyne",
+    "relationship": "Mentorship",
+    "quote": "A painter, she started late in her career having raised five kids. I started to represent her in 1978 until I closed the gallery.",
+    "from": "Francine Seders",
+    "editedQuote": "A painter, she started late in her career having raised five kids. I started to represent her in 1978 until I closed the gallery."
+  },
+  {
+    "source": 59,
+    "a": "Francine Seders",
+    "target": 81,
+    "b": "Lauri Chambers",
+    "relationship": "Mentorship",
+    "quote": "In the early 1990's, also a painter, also stayed until I closed. I am still in contact with both of them, looking at what they are doing now, giving encouragement."
+  },
+  {
+    "source": 59,
+    "a": "Francine Seders",
+    "target": 111,
+    "b": "Patricia Scott",
+    "relationship": "Mentorship",
+    "quote": " started to work for me in 1972, pretty much just out of school, she stayed as an assistant until 2011."
+  },
+  {
+    "source": 58,
+    "a": "Diana Adams",
+    "target": 34,
+    "b": "Robin Held",
+    "relationship": "Colleague"
+  },
+  {
+    "source": 5,
+    "a": "Ida Cole",
+    "target": 50,
+    "b": "Vivian Phillips",
+    "relationship": "Mentorship",
+    "quote": "Working with her showed me a whole other side of arts philanthropy and she remains a great friend and mentor, today!",
+    "from": "Vivian Phillips",
+    "editedQuote": "Working with her showed me a whole other side of arts philanthropy and she remains a great friend and mentor, today!"
+  },
+  {
+    "source": 6,
+    "a": "Irene Hirano Inouye",
+    "target": 24,
+    "b": "Beth Takekawa",
+    "relationship": "Mentor",
+    "quote": "Former museum director, capital campaign advisor, Congressional connections"
+  },
+  {
+    "source": 74,
+    "a": "Ivana Kartzov",
+    "target": 61,
+    "b": "Sharon Arnold",
+    "relationship": "Mentor-Peer",
+    "quote": "Ivana and I met outside the art world, through mutual friends about a year before she was accepted into Cornish. She just graduated this year. She's been such a great assistant to me and so many other folks in Seattle's art world but also she's someone I've always wanted to encourage to go the distance because she's insightful, hard-working, and passionate.",
+    "from": "Sharon Arnold",
+    "editedQuote": "Ivana and I met outside the art world, through mutual friends about a year before she was accepted into Cornish. She just graduated this year. She's been such a great assistant to me and so many other folks in Seattle's art world but also she's someone I've always wanted to encourage to go the distance because she's insightful, hard-working, and passionate."
+  },
+  {
+    "source": 7,
+    "a": "Jo-Anne Birnie Danzker",
+    "target": 56,
+    "b": "Amanda Manitach",
+    "relationship": "Mentorship",
+    "quote": "We haven’t worked together much, but I’ve always admired her breadth of knowledge and experience and her intellectual generosity when it comes to connecting with the artists in this city. An opportunity to talk with her about art or life is a gift. ",
+    "from": "Amanda Manitach",
+    "editedQuote": "We haven’t worked together much, but I’ve always admired her breadth of knowledge and experience and her intellectual generosity when it comes to connecting with the artists in this city. An opportunity to talk with her about art or life is a gift. "
+  },
+  {
+    "source": 7,
+    "a": "Jo-Anne Birnie Danzker",
+    "target": 69,
+    "b": "Davida Ingram",
+    "relationship": "Collaborator"
+  },
+  {
+    "source": 7,
+    "a": "Jo-Anne Birnie Danzker",
+    "target": 76,
+    "b": "Jessika Kenney",
+    "relationship": "Collaborator"
+  },
+  {
+    "source": 7,
+    "a": "Jo-Anne Birnie Danzker",
+    "target": 12,
+    "b": "Kimerly Rorschach",
+    "relationship": "Peer"
+  },
+  {
+    "source": 7,
+    "a": "Jo-Anne Birnie Danzker",
+    "target": 109,
+    "b": "Negarra Kudumu ",
+    "relationship": "Peer"
+  },
+  {
+    "source": 7,
+    "a": "Jo-Anne Birnie Danzker",
+    "target": 88,
+    "b": "Rebecca Brown",
+    "relationship": "Collaborator"
+  },
+  {
+    "source": 7,
+    "a": "Jo-Anne Birnie Danzker",
+    "target": 90,
+    "b": "Susie J. Lee",
+    "relationship": "Collaborator"
+  },
+  {
+    "source": 7,
+    "a": "Jo-Anne Birnie Danzker",
+    "target": 52,
+    "b": "Zoe Scofield",
+    "relationship": "Collaborator"
+  },
+  {
+    "source": 26,
+    "a": "Josi Callan",
+    "target": 25,
+    "b": "Rosanna Sharpe",
+    "relationship": "Mentor",
+    "quote": " Artists and Former Director of Museum of Glass and Experience Music Project"
+  },
+  {
+    "source": 29,
+    "a": "Julie Emerson ",
+    "target": 28,
+    "b": "Chiyo Ishikawa",
+    "relationship": "Mentorship",
+    "from": "Chiyo Ishikawa",
+    "editedQuote": "Helped me when I got to town and became a close colleague."
+  },
+  {
+    "source": 30,
+    "a": "Julie Lazar",
+    "target": 34,
+    "b": "Robin Held",
+    "relationship": "Mentor",
+    "quote": "Founding Curator, Museum of Contemporary Art, Los Angeles"
+  },
+  {
+    "source": 8,
+    "a": "Julie Stein",
+    "target": 21,
+    "b": "Sylvia Wolf",
+    "relationship": "Mentorship",
+    "quote": "Director of the Burke Museum of Natural History @ UW was Co/Chair of the search committee when I was being considered for the Henry job. When I was hired she welcomed me, oriented me to the UW, and has been an ardent supporter ever since. ",
+    "from": "Sylvia Wolf",
+    "editedQuote": "Was Co/Chair of the search committee when I was being considered for the Henry job. When I was hired she welcomed me, oriented me to the UW, and has been an ardent supporter ever since."
+  },
+  {
+    "source": 78,
+    "a": "Kamisha Turner",
+    "target": 67,
+    "b": "Aramis Hamer",
+    "relationship": "Mentorship",
+    "quote": "she's a phenomenal artist, she came out to speak at a location that we have called Black Dot, it's a co working space for black entrepreneurs on 23rd and Union. .. But she has incredible work, she works with acrylics, photography, water colors.",
+    "from": "Aramis Hamer",
+    "editedQuote": "She's a phenomenal artist, she came out to speak at a location that we have called Black Dot, it's a co working space for black entrepreneurs on 23rd and Union. .. But she has incredible work, she works with acrylics, photography, water colors."
+  },
+  {
+    "source": 103,
+    "a": "Karen Toering",
+    "target": 69,
+    "b": "Davida Ingram",
+    "relationship": "Mentorship"
+  },
+  {
+    "source": 9,
+    "a": "Kate Becker",
+    "target": 48,
+    "b": "Shannon Halberstadt",
+    "relationship": "Mentorship",
+    "quote": "Kate Becker, Seattle Office of Film and Music-hired me at the Old Fire House in Redmond WA in an administrative support role, and then mentored me into leadership roles. She’s become a very good friend and collaborator.",
+    "from": "Shannon Halberstadt",
+    "editedQuote": "Hired me at the Old Fire House in Redmond WA in an administrative support role, and then mentored me into leadership roles. "
+  },
+  {
+    "source": 10,
+    "a": "Katharine Lee Reid",
+    "target": 12,
+    "b": "Kimerly Rorschach",
+    "relationship": "Mentorship",
+    "quote": "All women directors of major art museums who helped me along the way in matters large and small. ",
+    "from": "Kimerly Rorschach",
+    "editedQuote": "[Anne d'Harnoncourt, Katharine Lee Reid,Mimi Gardner Gates] All women directors of major art museums who helped me along the way in matters large and small."
+  },
+  {
+    "source": 79,
+    "a": "Kathryn Hightower ",
+    "target": 67,
+    "b": "Aramis Hamer",
+    "relationship": "Mentorship",
+    "quote": "Just an absolutely amazing, beautifully spirited, woman. I don't know if that's a word, but that's what she is, she's a beautiful spirit"
+  },
+  {
+    "source": 11,
+    "a": "Kaywin Feldman ",
+    "target": 20,
+    "b": "Stephanie Stebich",
+    "relationship": "Mentorship",
+    "quote": "(director of the Minneapolis Institute of Arts) has helped me engage on a national level in the field by recruiting me first to the Board of the AAMD and more recently to the Board of the American Alliance of Museums.",
+    "from": "Stephanie Stebich",
+    "editedQuote": "(She) has helped me engage on a national level in the field by recruiting me first to the Board of the AAMD and more recently to the Board of the American Alliance of Museums."
+  },
+  {
+    "source": 104,
+    "a": "Kim Richter",
+    "target": 13,
+    "b": "Mary Ann Prior",
+    "relationship": "Mentor-Peer",
+    "quote": "Kim serves as the co-chair for the Seattle Art Fair host committee; Has been very helpful making introductions throughout the Seattle art scene.",
+    "from": "Mary Ann Prior",
+    "editedQuote": "Has been very helpful making introductions throughout the Seattle art scene."
+  },
+  {
+    "source": 12,
+    "a": "Kimerly Rorschach",
+    "target": 13,
+    "b": "Mary Ann Prior",
+    "relationship": "Mentor-Peer",
+    "quote": "The Seattle Art Museums is a co-organizer of Seeing Nature: Landscape Masterworks from the Paul G. Allen Family Collection, a traveling exhibition concluding at the Seattle Art Museum in early 2017."
+  },
+  {
+    "source": 64,
+    "a": "Kirsten Anderson",
+    "target": 56,
+    "b": "Amanda Manitach",
+    "relationship": "Mentorship",
+    "quote": "as a gallerist who has represented me, she’s taught me a lot about the business of art, how to hold one’s own as a woman in this industry. I’ve had male gallerists who were just cliches as far as being sexually and professionally inappropriate. Working with a powerful woman is the best!",
+    "from": "Amanda Manitach",
+    "editedQuote": "As a gallerist who has represented me, she’s taught me a lot about the business of art, how to hold one’s own as a woman in this industry. I’ve had male gallerists who were just cliches as far as being sexually and professionally inappropriate. Working with a powerful woman is the best!"
+  },
+  {
+    "source": 64,
+    "a": "Kirsten Anderson",
+    "target": 56,
+    "b": "Amanda Manitach",
+    "relationship": "Collaborator"
+  },
+  {
+    "source": 64,
+    "a": "Kirsten Anderson",
+    "target": 61,
+    "b": "Sharon Arnold",
+    "relationship": "Mentor-Peer"
+  },
+  {
+    "source": 64,
+    "a": "Kirsten Anderson",
+    "target": 89,
+    "b": "Sierra Stinson",
+    "relationship": "Collaborator"
+  },
+  {
+    "source": 82,
+    "a": "Laurie Hawkinson",
+    "target": 47,
+    "b": "Ruri Yampolsky",
+    "relationship": "Mentorship",
+    "quote": "An architect in New York and professor of Architecture at the Graduate School of Architecture, Planning and Preservation at Columbia University, was influential in my first career as an architect (in New York in the 1980’s)."
+  },
+  {
+    "source": 60,
+    "a": "Mariane Ibrahim",
+    "target": 62,
+    "b": "Tariqa Waters",
+    "relationship": "Mentorship"
+  },
+  {
+    "source": 33,
+    "a": "Maryan Ainsworth",
+    "target": 28,
+    "b": "Chiyo Ishikawa",
+    "relationship": "Mentorship"
+  },
+  {
+    "source": 14,
+    "a": "Megan Jasper",
+    "target": 48,
+    "b": "Shannon Halberstadt",
+    "relationship": "Mentorship",
+    "quote": "Megan Jasper, Sub Pop-was my Board Chair when I was Executive Director at the Vera Project, and modeled a very nice balance of hard work, passion, and humor.",
+    "from": "Shannon Halberstadt",
+    "editedQuote": "Modeled a very nice balance of hard work, passion, and humor."
+  },
+  {
+    "source": 43,
+    "a": "Melissa Harris",
+    "target": 45,
+    "b": "Michelle Dunn Marsh",
+    "relationship": "Mentorship",
+    "quote": "Former editor in chief, Aperture magazine: recognised my business sense in addition to my creative inclinations, and negotiated to have me in the role of associate publisher (eventually co-publisher) of the magazine, also seeking to stabilise and validate my precarious (and ultimately fatal) role as a bi-coastal employee. ",
+    "from": "Michelle Dunn Marsh",
+    "editedQuote": "Recognised my business sense in addition to my creative inclinations, and negotiated to have me in the role of associate publisher (eventually co-publisher) of the magazine."
+  },
+  {
+    "source": 106,
+    "a": "Michele Hasson",
+    "target": 2,
+    "b": "Barbara Earl Thomas",
+    "relationship": "Mentorship",
+    "quote": "Fundraiser par excellent who in helped me and the entire staff with how we might think about fundraising. She demystified and revealed whatever secrets there are/were. She encouraged me, pushed and gave me honest feedback. At the moment I was just about dead she took me to Mexico to sleep for a week.",
+    "from": "Barbara Earl Thomas",
+    "editedQuote": "Fundraiser par excellence who helped me and the entire staff with how we might think about fundraising. She demystified and revealed whatever secrets there are/were. She encouraged me, pushed and gave me honest feedback."
+  },
+  {
+    "source": 45,
+    "a": "Michelle Dunn Marsh",
+    "target": 97,
+    "b": "Bridget Watson Payne",
+    "relationship": "Mentorship",
+    "quote": " Now senior editor of art+design at Chronicle Books. I was her boss in 2008-10, though she trained me in my position. We set a goal of her getting to my title. She did.",
+    "from": "Michelle Dunn Marsh",
+    "editedQuote": "Now senior editor of art+design at Chronicle Books. I was her boss in 2008-10, though she trained me in my position. We set a goal of her getting to my title. She did."
+  },
+  {
+    "source": 45,
+    "a": "Michelle Dunn Marsh",
+    "target": 69,
+    "b": "Davida Ingram",
+    "relationship": "Mentor-Peer",
+    "quote": "hired to be teaching artist at Photo NW"
+  },
+  {
+    "source": 45,
+    "a": "Michelle Dunn Marsh",
+    "target": 32,
+    "b": "Elizabeth Brown",
+    "relationship": "Mentor-Peer",
+    "quote": "hired to be teaching artist at Photo NW"
+  },
+  {
+    "source": 45,
+    "a": "Michelle Dunn Marsh",
+    "target": 90,
+    "b": "Susie J. Lee",
+    "relationship": "Mentor-Peer",
+    "quote": "hired to be teaching artist at Photo NW"
+  },
+  {
+    "source": 107,
+    "a": "Micki Flowers",
+    "target": 2,
+    "b": "Barbara Earl Thomas",
+    "relationship": "Mentorship",
+    "quote": "Television news person, friend with longstanding high reputation for working harder than most can imagine.  She lent her time, financial resource, reputation and hands on work to carry out the fundraising tasks that were absolutely necessary.  She encouraged me with her presence and by showing me how and why the smallest details matter.  ",
+    "from": "Barbara Earl Thomas",
+    "editedQuote": "She lent her time, financial resources, reputation and hands-on work to carry out the fundraising tasks that were absolutely necessary.  She encouraged me with her presence and by showing me how and why the smallest details matter.  "
+  },
+  {
+    "source": 16,
+    "a": "Mimi Gardner Gates",
+    "target": 28,
+    "b": "Chiyo Ishikawa",
+    "relationship": "Mentorship"
+  },
+  {
+    "source": 16,
+    "a": "Mimi Gardner Gates",
+    "target": 12,
+    "b": "Kimerly Rorschach",
+    "relationship": "Mentorship",
+    "quote": "all women directors of major art museums who helped me along the way in matters large and small.",
+    "from": "Kimerly Rorschach",
+    "editedQuote": "[Anne d'Harnoncourt, Katharine Lee Reid,Mimi Gardner Gates] All women directors of major art museums who helped me along the way in matters large and small."
+  },
+  {
+    "source": 16,
+    "a": "Mimi Gardner Gates",
+    "target": 19,
+    "b": "Sandra Jackson-Dumont",
+    "relationship": "Mentor",
+    "quote": "Mimi Gates is being honored this weekend at the Northwest African-American Museum, she and Bill Gates. And I'm coming in to MC that event. She hired me into a Deputy Director position at the Seattle Art Museum",
+    "from": "Sandra Jackson-Dumont",
+    "editedQuote": "She hired me into a Deputy Director position at the Seattle Art Museum."
+  },
+  {
+    "source": 16,
+    "a": "Mimi Gardner Gates",
+    "target": 20,
+    "b": "Stephanie Stebich",
+    "relationship": "Mentorship",
+    "quote": "Mimi Gates, former director of Seattle Art Museum who I’ve known for close to 30 years beginning when she was Director of the Yale University Art Gallery. She was my first guide to my new NW art community from donors to colleagues and hosted a reception in my honor at SAM in spring 2005.",
+    "from": "Stephanie Stebich",
+    "editedQuote": "I've known (her) for close to 30 years, beginning when she was Director of the Yale University Art Gallery. She was my first guide to my new NW art community from donors to colleagues and hosted a reception in my honor at SAM in spring 2005."
+  },
+  {
+    "source": 16,
+    "a": "Mimi Gardner Gates",
+    "target": 21,
+    "b": "Sylvia Wolf",
+    "relationship": "Mentorship",
+    "quote": "Director of Seattle Art Museum when I arrived at the Henry in 2008. She welcomed my husband and me, introduced us to people in the region (art world and beyond), and has become a personal friend.",
+    "from": "Sylvia Wolf",
+    "editedQuote": "Director of Seattle Art Museum when I arrived at the Henry in 2008. She welcomed my husband and me, introduced us to people in the region (art world and beyond), and has become a personal friend."
+  },
+  {
+    "source": 17,
+    "a": "Mimi Gaudieri",
+    "target": 20,
+    "b": "Stephanie Stebich",
+    "relationship": "Mentorship",
+    "quote": "Former Executive Director of Association of Art Museum Directors (AAMD), she opened many doors for me as I was making my way in the field and deciding among different museum positions.  She recommended me to museum leaders such as Martin Friedman (legendary director of the Walker Art Center), Marcia Tucker (founder of New Museum of Contemporary Art), J. Carter Brown (late director of National Gallery of Art), Bob Bergman (late director of Cleveland Museum of Art), Mimi Gates and others.",
+    "from": "Stephanie Stebich",
+    "editedQuote": "She opened many doors for me as I was making my way in the field and deciding among different museum positions."
+  },
+  {
+    "source": 108,
+    "a": "Minnie Collins",
+    "target": 2,
+    "b": "Barbara Earl Thomas",
+    "relationship": "Mentorship",
+    "quote": "Educator in college system, community activist for all—volunteered from day one. Showed me what a volunteer could do when bringing the full force of her profession to bear in her role as tour guide for hundreds of young people. She encouraged and flanked me when I was sure I was doing it all wrong.",
+    "from": "Barbara Earl Thomas",
+    "editedQuote": "She showed me what a volunteer could do when bringing the full force of her profession to bear in her role as tour guide for hundreds of young people."
+  },
+  {
+    "source": 110,
+    "a": "Patricia Failing",
+    "target": 34,
+    "b": "Robin Held",
+    "relationship": "Mentor",
+    "quote": "Retired, Chair and Professor, Division of Art History, University of Washington; ArtNews editor"
+  },
+  {
+    "source": 34,
+    "a": "Robin Held",
+    "target": 40,
+    "b": "Florangela Davila",
+    "relationship": "Mentee",
+    "quote": "Editorial Director, Voices of the People, Forterra; independent journalist and producer"
+  },
+  {
+    "source": 34,
+    "a": "Robin Held",
+    "target": 7,
+    "b": "Jo-Anne Birnie Danzker",
+    "relationship": "Peer"
+  },
+  {
+    "source": 34,
+    "a": "Robin Held",
+    "target": 61,
+    "b": "Sharon Arnold",
+    "relationship": "Mentor-Peer",
+    "quote": "Robin has been a close friend and mentor, over the last few years. She's a strong support, but with the right amount of tough love when it's needed. Her knowledge and wisdom is immeasurable. I'm inspired by her leadership in Seattle's art community, her generosity, and her poetic curatorial aesthetic which manifests in all areas of her life. ",
+    "from": "Sharon Arnold",
+    "editedQuote": "Robin has been a close friend and mentor, over the last few years. She's a strong supporter, but with the right amount of tough love when it's needed."
+  },
+  {
+    "source": 34,
+    "a": "Robin Held",
+    "target": 90,
+    "b": "Susie J. Lee",
+    "relationship": "Mentee",
+    "quote": "Artist; CEO, Siren"
+  },
+  {
+    "source": 34,
+    "a": "Robin Held",
+    "target": 51,
+    "b": "Yoko Ott",
+    "relationship": "Mentee",
+    "quote": "Former founding director, the New Foundation; independent curator."
+  },
+  {
+    "source": 25,
+    "a": "Rosanna Sharpe",
+    "target": 15,
+    "b": "Michelle Bufano",
+    "relationship": "Colleague",
+    "quote": "colleague and now Director Chihuly Garden and Glass"
+  },
+  {
+    "source": 25,
+    "a": "Rosanna Sharpe",
+    "target": 45,
+    "b": "Michelle Dunn Marsh",
+    "relationship": "Colleague",
+    "quote": "colleague, now Director of NW Photography Center"
+  },
+  {
+    "source": 25,
+    "a": "Rosanna Sharpe",
+    "target": 18,
+    "b": "Patty Isacson Sabee",
+    "relationship": "Colleague",
+    "quote": "colleague and now Director Experience Music Project"
+  },
+  {
+    "source": 25,
+    "a": "Rosanna Sharpe",
+    "target": 36,
+    "b": "Susan Warner",
+    "relationship": "Colleague",
+    "quote": "colleague and now Director of Museum of Glass"
+  },
+  {
+    "source": 25,
+    "a": "Rosanna Sharpe",
+    "target": 92,
+    "b": "Vicki Halper",
+    "relationship": "Colleague",
+    "quote": "curator and historian"
+  },
+  {
+    "source": 47,
+    "a": "Ruri Yampolsky",
+    "target": 71,
+    "b": "Elizabeth Conner",
+    "relationship": "Mentor-Peer",
+    "quote": "Artist Elizabeth Conner (Vashon), with whom I’ve worked over the years and is a highly professional artist and educator."
+  },
+  {
+    "source": 47,
+    "a": "Ruri Yampolsky",
+    "target": 44,
+    "b": "Melissa Hines",
+    "relationship": "Mentor-Peer",
+    "quote": "A colleague here in the Office of Arts & Culture, and whose dedication and commitment to the artistic community in this city is legendary.",
+    "from": "Ruri Yampolsky",
+    "editedQuote": "A colleague here in the Office of Arts & Culture, and whose dedication and commitment to the artistic community in this city is legendary."
+  },
+  {
+    "source": 47,
+    "a": "Ruri Yampolsky",
+    "target": 87,
+    "b": "Norie Sato ",
+    "relationship": "Mentor-Peer",
+    "quote": "Artist Norie Sato (Seattle), whom I met when I first started working as a public art project manager, and with whom I worked on her temporary public art project on the waterfront in 1991 (and am currently working with on a permanent project for the waterfront). She has a strong commitment to all the arts in the city."
+  },
+  {
+    "source": 47,
+    "a": "Ruri Yampolsky",
+    "target": 91,
+    "b": "Vaughn Bell",
+    "relationship": "Mentorship",
+    "quote": "An artist who has also worked in our program and represents the future (current?) generation of artist/administrator/educator."
+  },
+  {
+    "source": 19,
+    "a": "Sandra Jackson-Dumont",
+    "target": 2,
+    "b": "Barbara Earl Thomas",
+    "relationship": "Mentorship",
+    "quote": "Museum professional and curator par-excellent — a museum whisperer who, even as she is quite younger that me, — she helped me keep on track with my artwork — pushed me to think outside of my box, even as she was aware, of the museum job at hand.  She never failed to introduce me as an artist, never flinched in that presentation which helped me remember to do the same.  She wrote the principal catalogue essay for my first solo exhibit after I stepped down from NAAM as director. ",
+    "from": "Barbara Earl Thomas",
+    "editedQuote": "Museum professional and curator par-excellence — a museum whisperer who, even as she is quite younger that me — she helped me keep on track with my artwork — pushed me to think outside of my box, even as she was aware, of the museum job at hand. She never failed to introduce me as an artist, never flinched in that presentation which helped me remember to do the same."
+  },
+  {
+    "source": 19,
+    "a": "Sandra Jackson-Dumont",
+    "target": 69,
+    "b": "Davida Ingram",
+    "relationship": "Mentorship"
+  },
+  {
+    "source": 19,
+    "a": "Sandra Jackson-Dumont",
+    "target": 62,
+    "b": "Tariqa Waters",
+    "relationship": "Mentorship"
+  },
+  {
+    "source": 113,
+    "a": "Serenity Wise",
+    "target": 62,
+    "b": "Tariqa Waters",
+    "relationship": "Connection"
+  },
+  {
+    "source": 48,
+    "a": "Shannon Halberstadt",
+    "target": 41,
+    "b": "Kristina Goetz",
+    "relationship": "Mentor"
+  },
+  {
+    "source": 48,
+    "a": "Shannon Halberstadt",
+    "target": 42,
+    "b": "Laura Becker",
+    "relationship": "Mentor"
+  },
+  {
+    "source": 48,
+    "a": "Shannon Halberstadt",
+    "target": 46,
+    "b": "Nancy Chang",
+    "relationship": "Mentor"
+  },
+  {
+    "source": 61,
+    "a": "Sharon Arnold",
+    "target": 56,
+    "b": "Amanda Manitach",
+    "relationship": "Mentorship",
+    "quote": "We kind of came into the art scene in Seattle around the same time and we have always schemed and dreamed art and nerded out on similar topics like asemic writing and DIY art spaces and projects. I’ve watched her grow over the years and evolve into such a savvy gallerist. An interesting and inspiring aspect of my relationship with her was witnessing the transition from jugggling art-making, curating, running spaces and arts writing to committing to just one main effort, sacrificing her own artistic ambition to focus on being a gallerist who supports the careers of emerging artists. That’s a hard but necessary choice to make eventually, I think, and many artists in the DIY vein struggle with split attention and exhausting resources and energy if they don’t.",
+    "from": "Amanda Manitach",
+    "editedQuote": "We came into the art scene in Seattle around the same time and we have always schemed and dreamed art and nerded out on similar topics like asemic writing and DIY art spaces and projects. I’ve watched her grow over the years and evolve into such a savvy gallerist. "
+  },
+  {
+    "source": 20,
+    "a": "Stephanie Stebich",
+    "target": 3,
+    "b": "Belinda Tate",
+    "relationship": "Mentorship",
+    "quote": "Current director of the Kalamazoo Museum of Art. Encouraged her professional growth and move from Winston-Salem Gallery of Art. We exchange advice and perspectives in the field as younger women museum directors who pursue a social justice agenda in our museum work.",
+    "from": "Stephanie Stebich",
+    "editedQuote": "We exchange advice and perspectives in the field as younger women museum directors who pursue a social justice agenda in our museum work."
+  },
+  {
+    "source": 20,
+    "a": "Stephanie Stebich",
+    "target": 31,
+    "b": "Laura Fry",
+    "relationship": "Mentorship",
+    "quote": "inaugural Haub Curator of Western American art. Selected her to take on a new collection area, assist with gallery design, and writing a collection catalogue. Supported her and grew her into a notable curator in her field. She’s since gone to the Gilcrease Museum of Art.",
+    "from": "Stephanie Stebich",
+    "editedQuote": "Selected her to take on a new collection area, assist with gallery design, and writing a collection catalogue. Supported her and grew her into a notable curator in her field. She’s since gone to the Gilcrease Museum of Art."
+  },
+  {
+    "source": 20,
+    "a": "Stephanie Stebich",
+    "target": 13,
+    "b": "Mary Ann Prior",
+    "relationship": "Mentor-Peer",
+    "quote": "The Tacoma Art Museum is a cultural partner of the Seattle Art Fair and Stephanie serves on the host committee"
+  },
+  {
+    "source": 20,
+    "a": "Stephanie Stebich",
+    "target": 83,
+    "b": "Mary Randlett",
+    "relationship": "Mentorship",
+    "quote": "NW photographer whose nature images exhibition we took in as our first major art collection"
+  },
+  {
+    "source": 20,
+    "a": "Stephanie Stebich",
+    "target": 45,
+    "b": "Michelle Dunn Marsh",
+    "relationship": "Mentorship",
+    "quote": "Director of Tacoma Art Museum. I knew her when I was at Aperture. She sent me a handwritten note of congratulations when I was hired at PCNW, and offered her cell phone number and available/acceptable hours of contact should I need a friendly ear, guidance, ",
+    "from": "Michelle Dunn Marsh",
+    "editedQuote": "I knew her when I was at Aperture. She sent me a handwritten note of congratulations when I was hired at PCNW, and offered her cell phone number and available/acceptable hours of contact should I need a friendly ear, guidance."
+  },
+  {
+    "source": 20,
+    "a": "Stephanie Stebich",
+    "target": 21,
+    "b": "Sylvia Wolf",
+    "relationship": "Mentor-Peer",
+    "quote": "(director of Henry Art Gallery). Her board asked me to welcome and orient her to the NW. I reminded them that we are all invested in her success or they’d have to do another grueling search. She’s at her 10 year mark now at the Henry. We’ve become fast friends and served on the AAMD Board together.",
+    "from": "Stephanie Stebich",
+    "editedQuote": "Her board asked me to welcome and orient her to the NW. I reminded them that we are all invested in her success or they’d have to do another grueling search. She’s at her 10 year mark now at the Henry. We’ve become fast friends and served on the AAMD Board together."
+  },
+  {
+    "source": 20,
+    "a": "Stephanie Stebich",
+    "target": 21,
+    "b": "Sylvia Wolf",
+    "relationship": "Mentor-Peer",
+    "quote": "Director of Tacoma Art Museum. I was a curator before coming to the Henry. When I met Stephanie, she gave me her cell phone number, inviting me to call for advice on being a new director. I used that number many times and feel fortunate to have Stephanie as a cherished colleague and friend.",
+    "from": "Sylvia Wolf",
+    "editedQuote": "I was a curator before coming to the Henry. When I met Stephanie, she gave me her cell phone number, inviting me to call for advice on being a new director. I used that number many times and feel fortunate to have Stephanie as a cherished colleague and friend."
+  },
+  {
+    "source": 49,
+    "a": "Sunny Speidel",
+    "target": 24,
+    "b": "Beth Takekawa",
+    "relationship": "Mentor",
+    "quote": "president of Underground Seattle and Pioneer Square community activist; advisor on neighborhood-based business development)"
+  },
+  {
+    "source": 21,
+    "a": "Sylvia Wolf",
+    "target": 66,
+    "b": "Anna Gaskell",
+    "relationship": "Mentorship",
+    "quote": "In the early 1990s, when I was Assistant Curator of Photography at the Art Institute of Chicago, I taught a studio course at the museum’s school. One of my students, Anna Gaskell, was a gifted young woman with a distinct vision and keen intelligence. Over 20 years, I marveled at her as she became a stellar artist working in film and photography, whose work has been exhibited and collected by museums worldwide.",
+    "from": "Sylvia Wolf",
+    "editedQuote": "One of my students (at the Art Institute of Chicago), Anna Gaskell, was a gifted young woman with a distinct vision and keen intelligence. Over 20 years, I marveled at her as she became a stellar artist working in film and photography, whose work has been exhibited and collected by museums worldwide."
+  },
+  {
+    "source": 21,
+    "a": "Sylvia Wolf",
+    "target": 12,
+    "b": "Kimerly Rorschach",
+    "relationship": "Peer"
+  },
+  {
+    "source": 21,
+    "a": "Sylvia Wolf",
+    "target": 35,
+    "b": "Sara Krajewski",
+    "relationship": "Mentorship",
+    "quote": "Assistant Curator at the Henry when I arrived in 2008, Sara was smart and insightful, and proved to be a leader when given more management responsibilities. When it came time for her to step into a leadership position outside the Henry, I shared what I had learned from my mentors. She is now Curator of Modern and Contemporary Art at the Portland Art Museum, and a colleague I greatly admire and respect.",
+    "from": "Sylvia Wolf",
+    "editedQuote": "When it came time for her to step into a leadership position outside the Henry, I shared what I had learned from my mentors. She is now Curator of Modern and Contemporary Art at the Portland Museum of Art, and a colleague I greatly admire and respect."
+  },
+  {
+    "source": 21,
+    "a": "Sylvia Wolf",
+    "target": 116,
+    "b": "Yukiko Yamagata",
+    "relationship": "Mentorship",
+    "quote": "I hired Yukiko as department assistant when she was newly out of grad school and I had just been appointed Curator of Photography at the Whitney Museum of American Art New York. Yukiko and I worked closely together for three years before she moved on to New York Public Library's Schomburg Center for Research in Black Culture, and then to the Open Society Foundation, where today she is Interim Director of the Documentary Photography Project. Today, Yukiko is bringing important photographic work to the world. I feel honored to know her.",
+    "from": "Sylvia Wolf",
+    "editedQuote": "Yukiko and I worked closely together for three years before she moved on to New York Public Library's Schomburg Center for Research in Black Culture, and then to the Open Society Foundation, where today she is Interim Director of the Documentary Photography Project. Today, Yukiko is bringing important photographic work to the world. I feel honored to know her."
+  },
+  {
+    "source": 62,
+    "a": "Tariqa Waters",
+    "target": 67,
+    "b": "Aramis Hamer",
+    "relationship": "Mentorship",
+    "quote": "Exhibited at The Paramount Theatre Re:definition)"
+  },
+  {
+    "source": 62,
+    "a": "Tariqa Waters",
+    "target": 67,
+    "b": "Aramis Hamer",
+    "relationship": "Mentorship",
+    "quote": "Tariqa, she just put me in connection with so many different people.,, But Tariqa she even got me connected with Seattle Art Museum. So I was teaching some live figurative drawings there, I did about four sessions with them and that was through her connection",
+    "from": "Aramis Hamer",
+    "editedQuote": "She just put me in connection with so many different people. But Tariqa she even got me connected with Seattle Art Museum. So I was teaching some live figurative drawings there."
+  },
+  {
+    "source": 62,
+    "a": "Tariqa Waters",
+    "target": 70,
+    "b": "Devon Midori Hale",
+    "relationship": "Mentorship",
+    "quote": "Exhibited at Martyr Sauce “ Family Recurrence” which won 1st place at City Arts Magazine Winter Art Walk Award) "
+  },
+  {
+    "source": 62,
+    "a": "Tariqa Waters",
+    "target": 72,
+    "b": "Elizabeth Lopez",
+    "relationship": "Mentorship",
+    "quote": "Martyr Sauce grand opening reception “My Boyfriend Living Room”",
+    "from": "Barbara Earl Thomas"
+  },
+  {
+    "source": 115,
+    "a": "Valerie Curtis-Newton ",
+    "target": 50,
+    "b": "Vivian Phillips",
+    "relationship": "Mentorship",
+    "quote": "She continues to bring me along and allow me to learn from her on a consistent basis.  Working with her to establish The Hansberry Project is perhaps one of the best and most rewarding decisions I’ve made in my career.",
+    "from": "Vivian Phillips",
+    "editedQuote": "She continues to bring me along and allow me to learn from her on a consistent basis. Working with her to establish The Hansberry Project is perhaps one of the best and most rewarding decisions I’ve made in my career."
+  },
+  {
+    "source": 92,
+    "a": "Vicki Halper",
+    "target": 45,
+    "b": "Michelle Dunn Marsh",
+    "relationship": "Mentorship",
+    "quote": "independent curator originally from NYC, met and worked with in Seattle. She is a pro. I have designed catalogs and brochures for six (and counting!) exhibitions of hers; she is loyal, and a joy to work with by maintaining high standards, creative openness, and respecting good design",
+    "from": "Michelle Dunn Marsh",
+    "editedQuote": "She is a pro. I have designed catalogs and brochures for six (and counting!) exhibitions of hers; she is loyal, and a joy to work with by maintaining high standards, creative openness, and respecting good design"
+  },
+  {
+    "source": 50,
+    "a": "Vivian Phillips",
+    "target": 67,
+    "b": "Aramis Hamer",
+    "relationship": "Mentorship",
+    "quote": "I mean, Aunty Viv, I call her. I love her. She's always pluggin'. She bought, I have phone cases on my website and she bought a phone case from me and every time she sees me she's like \"Oh, I got my phone case\" and she's showing everybody. And I'm like \"Thank you, thank you so much.\" And she was also behind the Paramount show. ",
+    "from": "Aramis Hamer",
+    "editedQuote": " Aunty Viv, I call her. I love her. She's always pluggin'. I have phone cases on my website and she bought a phone case from me and every time she sees me she's like, 'Oh, I got my phone case' and she's showing everybody. And I'm like 'Thank you, thank you so much.' And she was also behind the Paramount show. "
+  },
+  {
+    "source": 50,
+    "a": "Vivian Phillips",
+    "target": 69,
+    "b": "Davida Ingram",
+    "relationship": "Mentorship"
+  },
+  {
+    "source": 50,
+    "a": "Vivian Phillips",
+    "target": 75,
+    "b": "Jazmyn Scott",
+    "relationship": "Mentorship",
+    "quote": "Curator, Legacy of Seattle Hip Hop Exhibit "
+  },
+  {
+    "source": 50,
+    "a": "Vivian Phillips",
+    "target": 112,
+    "b": "Priya Frank",
+    "relationship": "Mentorship",
+    "quote": "Associate Director of Community Programs, SAM"
+  },
+  {
+    "source": 50,
+    "a": "Vivian Phillips",
+    "target": 114,
+    "b": "Sharon Nyree Williams",
+    "relationship": "Mentorship",
+    "quote": "Executive Director CD Forum for Arts & Ideas"
+  },
+  {
+    "source": 50,
+    "a": "Vivian Phillips",
+    "target": 62,
+    "b": "Tariqa Waters",
+    "relationship": "Mentorship"
+  },
+  {
+    "source": 22,
+    "a": "Thelma Golden",
+    "target": 19,
+    "b": "Sandra Jackson-Dumont",
+    "relationship": "Mentorship"
+  },
+  {
+    "source": 118,
+    "a": "Deborah Willis",
+    "target": 19,
+    "b": "Sandra Jackson-Dumont",
+    "relationship": "Mentorship"
+  },
+  {
+    "source": 19,
+    "a": "Sandra Jackson-Dumont",
+    "target": 54,
+    "b": "Rashida Bumbray",
+    "relationship": "Mentor"
+  },
+  {
+    "source": 19,
+    "a": "Sandra Jackson-Dumont",
+    "target": 69,
+    "b": "Davida Ingram",
+    "relationship": "Mentor"
+  },
+  {
+    "source": 19,
+    "a": "Sandra Jackson-Dumont",
+    "target": 119,
+    "b": "Tasia Endo",
+    "relationship": "Mentor"
+  },
+  {
+    "source": 23,
+    "a": "Connie Wolf",
+    "target": 19,
+    "b": "Sandra Jackson-Dumont",
+    "relationship": "Mentorship"
+  },
+  {
+    "source": 37,
+    "a": "Lowery Stokes Sims",
+    "target": 19,
+    "b": "Sandra Jackson-Dumont",
+    "relationship": "Mentorship"
+  },
+  {
+    "source": 34,
+    "a": "Robin Held",
+    "target": 90,
+    "b": "Susie J. Lee",
+    "relationship": "Mentorship",
+    "quote": "Mentor in feminism, grace under pressure, and pushing the boundaries of art definitions and practices, having a strong vision of what something could be. ",
+    "from": "Susie J. Lee",
+    "editedQuote": "Mentor in feminism, grace under pressure, and pushing the boundaries of art definitions and practices, having a strong vision of what something could be. "
+  },
+  {
+    "source": 121,
+    "a": "Jen Graves",
+    "target": 90,
+    "b": "Susie J. Lee",
+    "relationship": "Mentorship",
+    "quote": "Mentor in feminism, conversations on diversity, being fearless in writing about art. ",
+    "from": "Susie J. Lee",
+    "editedQuote": "Mentor in feminism, conversations on diversity, being fearless in writing about art. ﻿"
+  },
+  {
+    "source": 122,
+    "a": "Lesley Hazleton",
+    "target": 90,
+    "b": "Susie J. Lee",
+    "relationship": "Mentorship",
+    "quote": "mentor in bad-ass feminism and staying true to oneself.",
+    "from": "Susie J. Lee"
+  },
+  {
+    "source": 90,
+    "a": "Susie J. Lee",
+    "target": 120,
+    "b": "Katrina Hess",
+    "relationship": "Mentor-Peer",
+    "quote": "Naturally as someone I've worked with and learned from in business, strategies, and communication. We are work spouses. ",
+    "from": "Susie J. Lee",
+    "editedQuote": "Naturally as someone I've worked with and learned from in business, strategies, and communication. We are work spouses. "
+  },
+  {
+    "source": 90,
+    "a": "Susie J. Lee",
+    "target": 94,
+    "b": "Lena Takamori",
+    "relationship": "Mentorship",
+    "quote": "Akio Takamori's daughter and one of the wisest young souls I know -- I've had the pleasure to tutor her since she was 14, she's now in her mid-20s, an artist and someone I've learned much from. ",
+    "from": "Susie J. Lee",
+    "editedQuote": "Akio Takamori's daughter and one of the wisest young souls I know — I've had the pleasure to tutor her since she was 14, she's now in her mid-20s, an artist and someone I've learned much from. "
+  },
+  {
+    "source": 63,
+    "a": "Stacey Winston-Levitan",
+    "target": "",
+    "b": "Ann Gardner",
+    "relationship": "Collaborator",
+    "quote": "These are all artists who live and work in Seattle and have made their mark in painting, glass, photography, and sculpture. After 18 years of working in Seattle I have learned so much from these artists in terms of the aesthetic of the northwest, their craftsmanship, and their diversity of materials. Our relationships are mutually beneficial as I am able to position them to have their works in prominent collections and they continue to inspire the direction of the gallery."
+  },
+  {
+    "source": 63,
+    "a": "Stacey Winston-Levitan",
+    "target": 125,
+    "b": "Susan Dory",
+    "relationship": "Collaborator",
+    "quote": "These are all artists who live and work in Seattle and have made their mark in painting, glass, photography, and sculpture. After 18 years of working in Seattle I have learned so much from these artists in terms of the aesthetic of the northwest, their craftsmanship, and their diversity of materials. Our relationships are mutually beneficial as I am able to position them to have their works in prominent collections and they continue to inspire the direction of the gallery."
+  },
+  {
+    "source": 63,
+    "a": "Stacey Winston-Levitan",
+    "target": "",
+    "b": "Robin Layton",
+    "relationship": "Collaborator",
+    "quote": "These are all artists who live and work in Seattle and have made their mark in painting, glass, photography, and sculpture. After 18 years of working in Seattle I have learned so much from these artists in terms of the aesthetic of the northwest, their craftsmanship, and their diversity of materials. Our relationships are mutually beneficial as I am able to position them to have their works in prominent collections and they continue to inspire the direction of the gallery."
+  },
+  {
+    "source": 63,
+    "a": "Stacey Winston-Levitan",
+    "target": 124,
+    "b": "Julie Speidel",
+    "relationship": "Collaborator",
+    "quote": "These are all artists who live and work in Seattle and have made their mark in painting, glass, photography, and sculpture. After 18 years of working in Seattle I have learned so much from these artists in terms of the aesthetic of the northwest, their craftsmanship, and their diversity of materials. Our relationships are mutually beneficial as I am able to position them to have their works in prominent collections and they continue to inspire the direction of the gallery."
+  },
+  {
+    "source": 63,
+    "a": "Stacey Winston-Levitan",
+    "target": 123,
+    "b": "Etsuko Ichikawa",
+    "relationship": "Collaborator",
+    "quote": "These are all artists who live and work in Seattle and have made their mark in painting, glass, photography, and sculpture. After 18 years of working in Seattle I have learned so much from these artists in terms of the aesthetic of the northwest, their craftsmanship, and their diversity of materials. Our relationships are mutually beneficial as I am able to position them to have their works in prominent collections and they continue to inspire the direction of the gallery.",
+    "from": "Stacey Winston-Levitan",
+    "editedQuote": "These are all artists who live and work in Seattle and have made their mark in painting, glass, photography, and sculpture. After 18 years of working in Seattle I have learned so much from these artists in terms of the aesthetic of the northwest, their craftsmanship, and their diversity of materials. Our relationships are mutually beneficial as I am able to position them to have their works in prominent collections and they continue to inspire the direction of the gallery."
+  },
+  {
+    "source": 126,
+    "a": "Mary Boone",
+    "target": 63,
+    "b": "Stacey Winston-Levitan",
+    "relationship": "Mentor",
+    "quote": "Working for Mary Boone in the mid 80’s in New York taught me a lot about how to be a good business person and stay organized in the fast paced gallery environment of that time.",
+    "from": "Stacey Winston-Levitan",
+    "editedQuote": "Working for Mary Boone in the mid 80’s in New York taught me a lot about how to be a good business person and stay organized in the fast paced gallery environment of that time."
+  },
+  {
+    "source": 1,
+    "a": "Anne d'Harnoncourt",
+    "target": 16,
+    "b": "Mimi Gardner Gates",
+    "relationship": "Mentor",
+    "quote": "The former director of the Philadelphia Museum, was a female art museum director and scholar whom I admired tremendously. "
+  },
+  {
+    "source": 127,
+    "a": "Susan Brotman",
+    "target": 16,
+    "b": "Mimi Gardner Gates",
+    "relationship": "Mentor",
+    "quote": "In Seattle, among the women I learned a great deal from were Susan Brotman, President of the Seattle Art Museum Board of Trustees who knows how to lead intelligently.",
+    "from": "Mimi Gardner Gates",
+    "editedQuote": "In Seattle, among the women I learned a great deal from were Susan Brotman, President of the Seattle Art Museum Board of Trustees who knows how to lead intelligently."
+  },
+  {
+    "source": 128,
+    "a": "Faye Sarkowsky ",
+    "target": 16,
+    "b": "Mimi Gardner Gates",
+    "relationship": "Mentor",
+    "quote": "Introduced me to the Seattle arts community and gave me valuable insights."
+  },
+  {
+    "source": 129,
+    "a": "Patty Stonesifer",
+    "target": 16,
+    "b": "Mimi Gardner Gates",
+    "relationship": "Mentor",
+    "quote": "Former Microsoft executive and first CEO of the  Bill and Melinda Gates Foundation, is a leader par excellence — smart, savvy and extremely capable. Today, she is the head of Martha’s Table in Washington D.  I have been blessed with many fine mentors.",
+    "from": "Mimi Gardner Gates",
+    "editedQuote": "Former Microsoft executive and first CEO of the  Bill and Melinda Gates Foundation, is a leader par excellence — smart, savvy and extremely capable. Today, she is the head of Martha’s Table in Washington D.  I have been blessed with many fine mentors."
+  },
+  {
+    "source": 36,
+    "a": "Susan Warner",
+    "target": 20,
+    "b": "Stephanie Stebich",
+    "relationship": "Collaborator",
+    "quote": "Stephanie Stebich, Director of the Tacoma art Museum and I have been in our respective positions in Tacoma for many years. We support each other, attend each other's functions and brain-storm together . Stephanie has done a marvelous job of establishing the Tacoma Art Museum as an\ninstitution with strong community ties and its excellent reputation for\nscholarly and cutting edge exhibitions."
+  },
+  {
+    "source": 36,
+    "a": "Susan Warner",
+    "target": 130,
+    "b": "Kit Evans",
+    "relationship": "Collaborator",
+    "quote": "Kit Evans is the Director of the Hilltop Artist Program in Tacoma. She and\nI have known each other for many years. She is truly passionate about her program and the youth she serves. It is an honor to work with her. We\ncollaborate on many things including having her young glass artists in our\nHot Shop, helping with the design and execution of the center pieces for\ntheir largest fund raiser and many other ventures. She is a compassionate and singular leader as well as a great friend."
+  },
+  {
+    "source": 36,
+    "a": "Susan Warner",
+    "target": 131,
+    "b": "Tina Kuckkahn-Miller",
+    "relationship": "Collaborator",
+    "quote": "Tina Kuckkahn Miller, is the Director at the \"Welcome House\", the\nLonghouse Education and Cultural Center at Evergreen College. We have been collaborating on offering master classes for indigenous artists in our Hot Shop. She is incredibly gifted, organized and motivated. She is\nalso an awesome fund-raiser and I am really looking forward to working\nwith her on an up-coming exhibition is 2018."
+  },
+  {
+    "source": 26,
+    "a": "Josi Callan",
+    "target": 36,
+    "b": "Susan Warner",
+    "relationship": "Mentor",
+    "quote": "Josi Callan was really the founding Director at the Museum of Glass. She\nopened the Museum in 2002 and hired me to be her Director of Education. She was smart, driven and passionate. She put it all together for me and gave me the freedom to design and implement the core Education programs at MOG. She was a risk taker and a great friend.",
+    "from": "Susan Warner",
+    "editedQuote": "She opened the Museum in 2002 and hired me to be her Director of Education. She was smart, driven and passionate. She put it all together for me and gave me the freedom to design and implement the core Education programs at MOG. She was a risk taker and a great friend."
+  },
+  {
+    "source": 132,
+    "a": "Marie Ferguson",
+    "target": 36,
+    "b": "Susan Warner",
+    "relationship": "Mentor",
+    "quote": "Marie Ferguson was the formidable Administrative Director at the Dayton\nArt Institute when I was still that young Decorative Arts Curator. I\nreally learned from her compassionate and caring implementation of\nbusiness principles in a non-profit environment. She always looked out for\nthe employees.",
+    "from": "Susan Warner"
+  },
+  {
+    "source": 133,
+    "a": "Naomi Vine",
+    "target": 36,
+    "b": "Susan Warner",
+    "relationship": "Mentor",
+    "quote": "Naomi Vine was Chief Curator when I was a young Decorative Arts Curator at the Dayton Art Institute in Ohio. She was a fabulous mentor particularly\nin exhibition development and fund-raising. She was always very well presented, confidant and truly defined for me the meaning of professionalism. I treasure my memories of her.",
+    "from": "Susan Warner",
+    "editedQuote": "Naomi Vine was Chief Curator when I was a young Decorative Arts Curator at the Dayton Art Institute in Ohio. She was a fabulous mentor particularly\nin exhibition development and fund-raising."
+  },
+  {
+    "source": 134,
+    "a": "Manya Drobnack",
+    "target": 137,
+    "b": "Linda Pawson",
+    "relationship": "Mentor",
+    "quote": "Manya got me involved with my first volunteer job at Pratt Fine Arts Center in Seattle as a member of the Finance Committee in 2001; subsequently nominated me to join their Board and later, the BAM Board, which led to my current job as Exec Dir. ",
+    "from": "Linda Pawson",
+    "editedQuote": "in exhibition development and fund-raising"
+  },
+  {
+    "source": 135,
+    "a": "Karen Lorene ",
+    "target": 137,
+    "b": "Linda Pawson",
+    "relationship": "Mentor",
+    "quote": "in exhibition development and fund-raising. She was always very well",
+    "from": "Linda Pawson",
+    "editedQuote": "As a woman who started and has successfully run her own business in the art world she is a wealth of knowledge and support. When I was considering changing careers she was hugely encouraging to take the chance and do what I really loved."
+  },
+  {
+    "source": 136,
+    "a": "Evelyn Zabo",
+    "target": 137,
+    "b": "Linda Pawson",
+    "relationship": "Mentor",
+    "quote": "presented , confidant and truly defined for me the meaning of",
+    "from": "Linda Pawson",
+    "editedQuote": " She was a great mentor of both me individually, and other women at the firm. We both helped to establish the first West Coast Women’s Networking group for the Accenture High Tech group when we worked at the Seattle office."
+  },
+  {
+    "source": 137,
+    "a": "Linda Pawson",
+    "target": 15,
+    "b": "Michelle Bufano",
+    "relationship": "Mentor-Peer",
+    "quote": "professionalism. I treasure my memories of her."
+  },
+  {
+    "source": 137,
+    "a": "Linda Pawson",
+    "target": 138,
+    "b": "Bonnie Brandes",
+    "relationship": "Mentor-Peer",
+    "quote": "Bonnie worked for me at Microsoft. Not only was she a great employee but a fabulous example of grace and tenacity through challenging projects and tight timelines. Bonnie is currently at Microsoft as a Senior Business Manager."
+  },
+  {
+    "source": 137,
+    "a": "Linda Pawson",
+    "target": 139,
+    "b": "Tuya von Luehr",
+    "relationship": "Mentor-Peer",
+    "quote": "Tuya also worked for me at Microsoft. Coming to the US from Mongolia she not only overcame a language barrier but learned to excel in a US business environment. Tuya was an incredibly valuable member of our team whose talents and skills grew significantly during the time we worked together. She is currently a consultant at Bridge Partners Consulting. ",
+    "from": "Linda Pawson"
+  },
+  {
+    "source": 32,
+    "a": "Elizabeth Brown",
+    "target": 140,
+    "b": "Erin Weible",
+    "relationship": "Mentor",
+    "quote": "I worked with Liz Brown and Judy Sourakli at the Henry from 2007-2009 after I graduated from The University of Washington's Museum Studies program. Both were very helpful.",
+    "from": "Erin Weible"
+  },
+  {
+    "source": 141,
+    "a": "Judy Sourakli",
+    "target": 140,
+    "b": "Erin Weible",
+    "relationship": "Mentor",
+    "quote": "I worked with Liz Brown and Judy Sourakli at the Henry from 2007-2009 after I graduated from The University of Washington's Museum Studies program. Both were very helpful. ",
+    "from": "Erin Weible"
+  }
+]

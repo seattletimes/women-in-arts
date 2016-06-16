@@ -1,0 +1,91 @@
+[
+  {
+    "thread": "intro",
+    "stage": 1,
+    "text": "They say in business, &ldquo;It's not what you know but who you know.&rdquo; To build this web, we asked women in the Seattle-area art community to name mentors, collaborators and peers who have influenced their careers. Drag and zoom through the network to see how these art professionals know each other, and tap on a bubble for more information about each person.",
+    "focus": "*"
+  },
+  {
+    "thread": "intro",
+    "stage": 2,
+    "text": "Barbara Earl Thomas, an artist and the former director at the Northwest African American Museum, has been a force in Seattle's art world for 40 years. She joined the Seattle Arts Commission, now called the Office of Arts and Culture, in 1979.",
+    "focus": 2,
+    "highlight": 2
+  },
+  {
+    "thread": "intro",
+    "stage": 3,
+    "text": "Earl Thomas is a friend of Vivian Phillips, chairwoman of the Seattle Arts Commission, the board that advises the Office of Arts and Culture on what projects receive funding from the &ldquo;One Percent for the Arts&rdquo; public-art program.",
+    "focus": "2&50",
+    "highlight": 50
+  },
+  {
+    "thread": "intro",
+    "stage": 4,
+    "text": "Upon moving here from Atlanta, artist and gallerist Tariqa Waters met Earl Thomas and Phillips. Phillips, also the head of marketing at the Seattle Theatre Group, recommended Waters to be co-curator for a year-long art series at the Paramount Theatre.",
+    "focus": "2&50&62",
+    "highlight": 62
+  },
+  {
+    "thread": "gates",
+    "stage": 1,
+    "text": "Many of the current museum directors pointed to Mimi Gardner Gates as a welcoming and helpful force when they came to town. They, in turn, returned the favor to others. ",
+    "focus": 16,
+    "highlight": 16
+  },
+  {
+    "thread": "gates",
+    "stage": 2,
+    "text": "Stephanie Stebich, the director of the Tacoma Art Museum, said of Gates, &ldquo;She was my first guide to my new Northwest art community, from donors to colleagues, and hosted a reception in my honor at SAM in spring 2005.&rdquo;",
+    "focus": "16&20",
+    "highlight": 20
+  },
+  {
+    "thread": "gates",
+    "stage": 3,
+    "text": "When Michelle Dunn Marsh came to Seattle to run Photography Center Northwest, Stebich reached out to her. &ldquo;She sent me a handwritten note of congratulations when I was hired at PCNW, and offered her cell phone number and available/acceptable hours of contact should I need a friendly ear or guidance,&rdquo; she said of Stebich.",
+    "focus": "16&20&45",
+    "highlight": 45
+  },
+  {
+    "thread": "ingram",
+    "stage": 1,
+    "text": "While many of the directors named other directors, and artists often named other artists or gallerists, there was one person who was connected to many different types of people the industry. Davida Ingram, an artist and the Public Engagement Programs Manager of the Seattle Art Museum, named many people she felt were important to her sphere, and many named her as an influencer, as well.",
+    "focus": 69,
+    "highlight": 69
+  },
+  {
+    "thread": "ingram",
+    "stage": 2,
+    "text": "Her connections include Frye Art Museum director Jo-Anne Birnie Danzker, the Metropolitan Museum of Art Chairman of Education Sandra Jackson-Dumont, as well as artist-peers, such as Chieko Phillips and Susie Lee. She is also connected to both Tariqa Waters and Vivian Phillips.",
+    "focus": "69&98&62&50&19&90",
+    "highlight": 69
+  },
+  {
+    "thread": "adams",
+    "stage": 1,
+    "text": "In addition to their shared connections, independent gallerists have a shared visual sensibility. Vermillion owner Diana Adams had shown the work of artist Amanda Manitach, who has since opened her own indie gallery.",
+    "focus": "58&56",
+    "highlight": 58
+  },
+  {
+    "thread": "adams",
+    "stage": 2,
+    "text": "Amanda Manitach has links to Sharon Arnold, another independent gallerist and artist, who had worked with Kirsten Anderson at the pop surrealist gallery, Roq La Rue.",
+    "focus": "58&56&61&64",
+    "highlight": 61
+  },
+  {
+    "thread": "adams",
+    "stage": 3,
+    "text": "Diane Adams is also linked to Mariane Ibrahim, who moved here from Paris, whose relatively new gallery has garnered international notice. And Ibrahim has a connection to Tariqa Waters, the artist-turned-gallerist who moved here from Atlanta.",
+    "focus": "60&58&62",
+    "highlight": 60
+  },
+  {
+    "thread": "chatter",
+    "stage": 0,
+    "text": "Click an item above to step through the network, or zoom and tap the circles to explore on your own.",
+    "focus": "*"
+  }
+]

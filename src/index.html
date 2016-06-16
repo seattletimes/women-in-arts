@@ -59,11 +59,16 @@
       </main>
     </responsive-child>
 
+<%
+json.WomenInArts_Connections.forEach(function(row) {
+  delete row.quote;
+});
+%>
     <script>
 window.network = {
-  edges: <%= JSON.stringify(csv.connections) %>,
-  nodes: <%= JSON.stringify(csv.people) %>,
-  narrative: <%= JSON.stringify(csv.narratives) %>
+  edges: <%= JSON.stringify(json.WomenInArts_Connections) %>,
+  nodes: <%= JSON.stringify(json.WomenInArts_People) %>,
+  narrative: <%= JSON.stringify(json.WomenInArts_narratives) %>
 };
     </script>
 

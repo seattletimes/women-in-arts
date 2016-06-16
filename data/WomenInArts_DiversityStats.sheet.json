@@ -1,0 +1,398 @@
+[
+  {
+    "year": 1973,
+    "sac_men": 4,
+    "sac_women": 5,
+    "arts_men": 1,
+    "arts_women": 1,
+    "all_men": 5,
+    "all_women": 6
+  },
+  {
+    "year": 1974,
+    "sac_men": 11,
+    "sac_women": 5,
+    "arts_men": 1,
+    "arts_women": 1,
+    "all_men": 12,
+    "all_women": 6
+  },
+  {
+    "year": 1975,
+    "sac_men": 8,
+    "sac_women": 6,
+    "arts_men": 1,
+    "arts_women": 1,
+    "all_men": 9,
+    "all_women": 7
+  },
+  {
+    "year": 1976,
+    "sac_men": 9,
+    "sac_women": 6,
+    "arts_men": 1,
+    "arts_women": 0,
+    "all_men": 10,
+    "all_women": 6
+  },
+  {
+    "year": 1977,
+    "sac_men": 10,
+    "sac_women": 5,
+    "arts_men": 3,
+    "arts_women": 4,
+    "all_men": 13,
+    "all_women": 9
+  },
+  {
+    "year": 1978,
+    "sac_men": 6,
+    "sac_women": 7,
+    "arts_men": 3,
+    "arts_women": 5,
+    "all_men": 9,
+    "all_women": 12
+  },
+  {
+    "year": 1979,
+    "sac_men": 6,
+    "sac_women": 9,
+    "arts_men": 3,
+    "arts_women": 4,
+    "all_men": 9,
+    "all_women": 13
+  },
+  {
+    "year": 1980,
+    "sac_men": 7,
+    "sac_women": 5,
+    "arts_men": 5,
+    "arts_women": 8,
+    "all_men": 12,
+    "all_women": 13
+  },
+  {
+    "year": 1981,
+    "sac_men": 9,
+    "sac_women": 6,
+    "arts_men": 2,
+    "arts_women": 10,
+    "all_men": 11,
+    "all_women": 16
+  },
+  {
+    "year": 1982,
+    "sac_men": 9,
+    "sac_women": 7,
+    "arts_men": 2,
+    "arts_women": 10,
+    "all_men": 11,
+    "all_women": 17
+  },
+  {
+    "year": 1983,
+    "sac_men": 7,
+    "sac_women": 8,
+    "arts_men": 2,
+    "arts_women": 7,
+    "all_men": 9,
+    "all_women": 15
+  },
+  {
+    "year": 1984,
+    "sac_men": 6,
+    "sac_women": 8,
+    "arts_men": 3,
+    "arts_women": 7,
+    "all_men": 9,
+    "all_women": 15
+  },
+  {
+    "year": 1985,
+    "sac_men": 7,
+    "sac_women": 7,
+    "arts_men": 3,
+    "arts_women": 7,
+    "all_men": 10,
+    "all_women": 14
+  },
+  {
+    "year": 1986,
+    "sac_men": 5,
+    "sac_women": 10,
+    "arts_men": 3,
+    "arts_women": 7,
+    "all_men": 8,
+    "all_women": 17
+  },
+  {
+    "year": 1987,
+    "sac_men": 7,
+    "sac_women": 8,
+    "arts_men": 3,
+    "arts_women": 7,
+    "all_men": 10,
+    "all_women": 15
+  },
+  {
+    "year": 1988,
+    "sac_men": 6,
+    "sac_women": 8,
+    "arts_men": 5,
+    "arts_women": 8,
+    "all_men": 11,
+    "all_women": 16
+  },
+  {
+    "year": 1989,
+    "sac_men": 7,
+    "sac_women": 8,
+    "arts_men": 4,
+    "arts_women": 8,
+    "all_men": 11,
+    "all_women": 16
+  },
+  {
+    "year": 1990,
+    "sac_men": 8,
+    "sac_women": 7,
+    "arts_men": 4,
+    "arts_women": 10,
+    "all_men": 12,
+    "all_women": 17
+  },
+  {
+    "year": 1991,
+    "sac_men": 10,
+    "sac_women": 3,
+    "arts_men": 6,
+    "arts_women": 11,
+    "all_men": 16,
+    "all_women": 14
+  },
+  {
+    "year": 1992,
+    "sac_men": 10,
+    "sac_women": 5,
+    "arts_men": 5,
+    "arts_women": 10,
+    "all_men": 15,
+    "all_women": 15
+  },
+  {
+    "year": 1993,
+    "sac_men": 9,
+    "sac_women": 6,
+    "arts_men": 4,
+    "arts_women": 12,
+    "all_men": 13,
+    "all_women": 18
+  },
+  {
+    "year": 1994,
+    "sac_men": 8,
+    "sac_women": 6,
+    "arts_men": 2,
+    "arts_women": 17,
+    "all_men": 10,
+    "all_women": 23
+  },
+  {
+    "year": 1995,
+    "sac_men": 10,
+    "sac_women": 5,
+    "arts_men": 2,
+    "arts_women": 15,
+    "all_men": 12,
+    "all_women": 20
+  },
+  {
+    "year": 1996,
+    "sac_men": 9,
+    "sac_women": 6,
+    "arts_men": 2,
+    "arts_women": 15,
+    "all_men": 11,
+    "all_women": 21
+  },
+  {
+    "year": 1997,
+    "sac_men": 9,
+    "sac_women": 6,
+    "arts_men": 2,
+    "arts_women": 12,
+    "all_men": 11,
+    "all_women": 18
+  },
+  {
+    "year": 1998,
+    "sac_men": 8,
+    "sac_women": 7,
+    "arts_men": 3,
+    "arts_women": 12,
+    "all_men": 11,
+    "all_women": 19
+  },
+  {
+    "year": 1999,
+    "sac_men": 6,
+    "sac_women": 9,
+    "arts_men": 2,
+    "arts_women": 15,
+    "all_men": 8,
+    "all_women": 24
+  },
+  {
+    "year": 2000,
+    "sac_men": 7,
+    "sac_women": 8,
+    "arts_men": 3,
+    "arts_women": 18,
+    "all_men": 10,
+    "all_women": 26
+  },
+  {
+    "year": 2001,
+    "sac_men": 7,
+    "sac_women": 8,
+    "arts_men": 0,
+    "arts_women": 12,
+    "all_men": 7,
+    "all_women": 20
+  },
+  {
+    "year": 2002,
+    "sac_men": 5,
+    "sac_women": 4,
+    "arts_men": 4,
+    "arts_women": 25,
+    "all_men": 9,
+    "all_women": 29
+  },
+  {
+    "year": 2003,
+    "sac_men": 9,
+    "sac_women": 7,
+    "arts_men": 3,
+    "arts_women": 20,
+    "all_men": 12,
+    "all_women": 27
+  },
+  {
+    "year": 2004,
+    "sac_men": 10,
+    "sac_women": 7,
+    "arts_men": 6,
+    "arts_women": 19,
+    "all_men": 16,
+    "all_women": 26
+  },
+  {
+    "year": 2005,
+    "sac_men": 13,
+    "sac_women": 7,
+    "arts_men": 6,
+    "arts_women": 19,
+    "all_men": 19,
+    "all_women": 26
+  },
+  {
+    "year": 2006,
+    "sac_men": 12,
+    "sac_women": 5,
+    "arts_men": 6,
+    "arts_women": 19,
+    "all_men": 18,
+    "all_women": 24
+  },
+  {
+    "year": 2007,
+    "sac_men": 10,
+    "sac_women": 7,
+    "arts_men": 6,
+    "arts_women": 18,
+    "all_men": 16,
+    "all_women": 25
+  },
+  {
+    "year": 2008,
+    "sac_men": 10,
+    "sac_women": 6,
+    "arts_men": 7,
+    "arts_women": 20,
+    "all_men": 17,
+    "all_women": 26
+  },
+  {
+    "year": 2009,
+    "sac_men": 9,
+    "sac_women": 9,
+    "arts_men": 6,
+    "arts_women": 19,
+    "all_men": 15,
+    "all_women": 28
+  },
+  {
+    "year": 2010,
+    "sac_men": 8,
+    "sac_women": 9,
+    "arts_men": 7,
+    "arts_women": 16,
+    "all_men": 15,
+    "all_women": 25
+  },
+  {
+    "year": 2011,
+    "sac_men": 10,
+    "sac_women": 7,
+    "arts_men": 6,
+    "arts_women": 16,
+    "all_men": 16,
+    "all_women": 23
+  },
+  {
+    "year": 2012,
+    "sac_men": 12,
+    "sac_women": 7,
+    "arts_men": 7,
+    "arts_women": 17,
+    "all_men": 19,
+    "all_women": 24
+  },
+  {
+    "year": 2013,
+    "sac_men": 10,
+    "sac_women": 10,
+    "arts_men": 12,
+    "arts_women": 22,
+    "all_men": 22,
+    "all_women": 32
+  },
+  {
+    "year": 2014,
+    "sac_men": 9,
+    "sac_women": 11,
+    "arts_men": 9,
+    "arts_women": 24,
+    "all_men": 18,
+    "all_women": 35
+  },
+  {
+    "year": 2015,
+    "sac_men": 8,
+    "sac_women": 8,
+    "arts_men": 10,
+    "arts_women": 22,
+    "all_men": 20,
+    "all_women": 44
+  },
+  {
+    "year": 2016,
+    "sac_men": 8,
+    "sac_women": 8,
+    "arts_men": 10,
+    "arts_women": 22,
+    "all_men": 20,
+    "all_women": 44
+  }
+]

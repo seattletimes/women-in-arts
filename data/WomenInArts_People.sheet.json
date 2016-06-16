@@ -1,0 +1,1177 @@
+[
+  {
+    "label": "Anne d'Harnoncourt",
+    "id": 1,
+    "rank": 1,
+    "category": "Leader",
+    "size": 6,
+    "title": "Former Director, Philadelphia Museum"
+  },
+  {
+    "label": "Barbara Earl Thomas",
+    "id": 2,
+    "rank": 1,
+    "category": "Leader",
+    "size": 6,
+    "title": "Artist, former Executive Director, Northwest African American Museum",
+    "photo": "Barbara_Earl_Thomas.jpg"
+  },
+  {
+    "label": "Belinda Tate",
+    "id": 3,
+    "rank": 1,
+    "category": "Leader",
+    "size": 6,
+    "title": "Executive Director, Kalamazoo Institute of Arts",
+    "filter": "x"
+  },
+  {
+    "label": "Christina Orr-Cahall",
+    "id": 4,
+    "rank": 1,
+    "category": "Leader",
+    "size": 6,
+    "title": "Former director, Experience Music Project"
+  },
+  {
+    "label": "Ida Cole",
+    "id": 5,
+    "rank": 1,
+    "category": "Leader",
+    "size": 6,
+    "title": "Founder, Seattle Theatre Group, former Vice President, Microsoft"
+  },
+  {
+    "label": "Irene Hirano Inouye",
+    "id": 6,
+    "rank": 1,
+    "category": "Leader",
+    "size": 6,
+    "title": "President, US-Japan Council; Former President and founding Chief Executive Officer, Japanese American National Museum"
+  },
+  {
+    "label": "Jo-Anne Birnie Danzker",
+    "id": 7,
+    "rank": 1,
+    "category": "Leader",
+    "size": 6,
+    "title": "Director, Frye Art Museum",
+    "photo": "Jo-Anne_Birnie.jpg"
+  },
+  {
+    "label": "Julie Stein",
+    "id": 8,
+    "rank": 1,
+    "category": "Leader",
+    "size": 6,
+    "title": "Executive Director, Burke Museum of Natural History"
+  },
+  {
+    "label": "Kate Becker",
+    "id": 9,
+    "rank": 1,
+    "category": "Leader",
+    "size": 6,
+    "title": "Director, City of Seattle Office of Film and Music"
+  },
+  {
+    "label": "Katharine Lee Reid",
+    "id": 10,
+    "rank": 1,
+    "category": "Leader",
+    "size": 6,
+    "title": "Former Director, Cleveland Museum of Art",
+    "filter": "x"
+  },
+  {
+    "label": "Kaywin Feldman ",
+    "id": 11,
+    "rank": 1,
+    "category": "Leader",
+    "size": 6,
+    "title": "Director and President, Minneapolis Institute of Art"
+  },
+  {
+    "label": "Kimerly Rorschach",
+    "id": 12,
+    "rank": 1,
+    "category": "Leader",
+    "size": 6,
+    "title": "Director and CEO, Seattle Art Museum",
+    "photo": "Kimerly_Rorschach.jpg"
+  },
+  {
+    "label": "Mary Ann Prior",
+    "id": 13,
+    "rank": 1,
+    "category": "Leader",
+    "size": 6,
+    "title": "Director of Art Collections, Vulcan Inc."
+  },
+  {
+    "label": "Megan Jasper",
+    "id": 14,
+    "rank": 1,
+    "category": "Leader",
+    "size": 6,
+    "title": "CEO, SubPop"
+  },
+  {
+    "label": "Michelle Bufano",
+    "id": 15,
+    "rank": 1,
+    "category": "Leader",
+    "size": 6,
+    "title": "Executive Director, Chihuly Garden and Glass"
+  },
+  {
+    "label": "Mimi Gardner Gates",
+    "id": 16,
+    "rank": 1,
+    "category": "Leader",
+    "size": 6,
+    "title": "Former Director, Seattle Art Museum",
+    "photo": "Mimi_Gates.jpg"
+  },
+  {
+    "label": "Mimi Gaudieri",
+    "id": 17,
+    "rank": 1,
+    "category": "Leader",
+    "size": 6,
+    "title": "Former Executive Director of Association of Art Museum Directors (AAMD)",
+    "filter": "x"
+  },
+  {
+    "label": "Patty Isacson Sabee",
+    "id": 18,
+    "rank": 1,
+    "category": "Leader",
+    "size": 6,
+    "title": "CEO and Director, Experience Music Project"
+  },
+  {
+    "label": "Sandra Jackson-Dumont",
+    "id": 19,
+    "rank": 1,
+    "category": "Leader",
+    "size": 6,
+    "title": "Chairman of Education, The Metropolitan Museum of Art",
+    "photo": "Sandra_Jackson.jpg"
+  },
+  {
+    "label": "Stephanie Stebich",
+    "id": 20,
+    "rank": 1,
+    "category": "Leader",
+    "size": 6,
+    "title": "Executive Director, Tacoma Art Museum",
+    "photo": "Stephanie_Stebich.jpg"
+  },
+  {
+    "label": "Sylvia Wolf",
+    "id": 21,
+    "rank": 1,
+    "category": "Leader",
+    "size": 6,
+    "title": "Executive Director, Henry Art Gallery"
+  },
+  {
+    "label": "Thelma Golden",
+    "id": 22,
+    "rank": 1,
+    "category": "Leader",
+    "size": 6,
+    "title": "Director and Chief Curator, The Studio Museum in Harlem"
+  },
+  {
+    "label": "Connie Wolf",
+    "id": 23,
+    "rank": 1,
+    "category": "Leader",
+    "size": 6,
+    "title": "Director, Cantor Center for Visual Arts at Stanford",
+    "filter": "x"
+  },
+  {
+    "label": "Beth Takekawa",
+    "id": 24,
+    "rank": 1,
+    "category": "Leader",
+    "size": 6,
+    "title": "Executive Director, Wing Luke Museum of the Asian Pacific American Experience",
+    "photo": "Beth_Takekawa.jpg"
+  },
+  {
+    "label": "Rosanna Sharpe",
+    "id": 25,
+    "rank": 1,
+    "category": "Leader",
+    "size": 6,
+    "title": "Executive Director, Northwest African American Museum"
+  },
+  {
+    "label": "Josi Callan",
+    "id": 26,
+    "rank": 1,
+    "category": "Leader",
+    "size": 6,
+    "title": "Artist, Former CEO, Experience Music Project, Former Director, Museum of Glass, San Jose Museum of Art"
+  },
+  {
+    "label": "Barbara Johns",
+    "id": 27,
+    "rank": 2,
+    "category": "Curator",
+    "size": 5,
+    "title": "Former Chief Curator, Tacoma Art Museum, author"
+  },
+  {
+    "label": "Chiyo Ishikawa",
+    "id": 28,
+    "rank": 2,
+    "category": "Leader",
+    "size": 5,
+    "title": "Deputy Director for Art, Curator of European Painting and Sculpture, Seattle Art Museum"
+  },
+  {
+    "label": "Julie Emerson ",
+    "id": 29,
+    "rank": 2,
+    "category": "Curator",
+    "size": 5,
+    "title": "Former Curator of Decorative Arts, Seattle Art Museum"
+  },
+  {
+    "label": "Julie Lazar",
+    "id": 30,
+    "rank": 2,
+    "category": "Curator",
+    "size": 5,
+    "title": "Founder, International Contemporary Arts Network, Former Founding Curator, Museum of Contemporary Art",
+    "filter": "x"
+  },
+  {
+    "label": "Laura Fry",
+    "id": 31,
+    "rank": 2,
+    "category": "Curator",
+    "size": 5,
+    "title": "Curator of Art, Gilcrease Museum; Former founding Curator of Western American Art, Tacoma Art Museum"
+  },
+  {
+    "label": "Elizabeth Brown",
+    "id": 32,
+    "rank": 2,
+    "category": "Curator",
+    "size": 5,
+    "title": "Independent art historian and curator; Former Chief Curator, Henry Art Gallery"
+  },
+  {
+    "label": "Maryan Ainsworth",
+    "id": 33,
+    "rank": 2,
+    "category": "Curator",
+    "size": 5,
+    "title": "Curator of European Paintings, The Metropolitan Museum of Art",
+    "filter": "x"
+  },
+  {
+    "label": "Robin Held",
+    "id": 34,
+    "rank": 2,
+    "category": "Leader",
+    "size": 5,
+    "title": "Arts business consultant and Former Deputy Director, Exhibitions and Collections Frye Art Museum",
+    "photo": "Robin_Held.jpg"
+  },
+  {
+    "label": "Sara Krajewski",
+    "id": 35,
+    "rank": 2,
+    "category": "Curator",
+    "size": 5,
+    "title": "Curator of Modern and Contemporary Art at the Portland Art Museum"
+  },
+  {
+    "label": "Susan Warner",
+    "id": 36,
+    "rank": 2,
+    "category": "Leader",
+    "size": 5,
+    "title": "Artistic Director, Museum of Glass"
+  },
+  {
+    "label": "Lowery Stokes Sims",
+    "id": 37,
+    "rank": 2,
+    "category": "Curator",
+    "size": 5,
+    "title": "Retired Curator Emerita at the Museum of Arts and Design",
+    "filter": "x"
+  },
+  {
+    "label": "Claudia Bach",
+    "id": 38,
+    "rank": 3,
+    "category": "Leader",
+    "size": 4,
+    "title": "Principal and founder, AdvisArts",
+    "filter": "x"
+  },
+  {
+    "label": "Diane Shamash",
+    "id": 39,
+    "rank": 3,
+    "category": "Leader",
+    "size": 4,
+    "title": "Founder and executive director of Minetta Brook",
+    "filter": "x"
+  },
+  {
+    "label": "Florangela Davila",
+    "id": 40,
+    "rank": 3,
+    "category": "Leader",
+    "size": 4,
+    "title": "Director, Forterra",
+    "filter": "x"
+  },
+  {
+    "label": "Kristina Goetz",
+    "id": 41,
+    "rank": 3,
+    "category": "Leader",
+    "size": 4,
+    "title": "Development Director, Artist Trust",
+    "filter": "x"
+  },
+  {
+    "label": "Laura Becker",
+    "id": 42,
+    "rank": 3,
+    "category": "Leader",
+    "size": 4,
+    "title": "Executive Director, Spokane Arts"
+  },
+  {
+    "label": "Melissa Harris",
+    "id": 43,
+    "rank": 3,
+    "category": "Leader",
+    "size": 4,
+    "title": "Editor-in-chief, Aperture Foundation",
+    "filter": "x"
+  },
+  {
+    "label": "Melissa Hines",
+    "id": 44,
+    "rank": 3,
+    "category": "Leader",
+    "size": 4,
+    "title": "Former Director, Civic Partnerships, Seattle Office of Arts and Cultural Affairs"
+  },
+  {
+    "label": "Michelle Dunn Marsh",
+    "id": 45,
+    "rank": 3,
+    "category": "Leader",
+    "size": 4,
+    "title": "Executive Director, Photographic Center Northwest "
+  },
+  {
+    "label": "Nancy Chang",
+    "id": 46,
+    "rank": 3,
+    "category": "Leader",
+    "size": 4,
+    "title": "Executive Director, Reel Grrls"
+  },
+  {
+    "label": "Ruri Yampolsky",
+    "id": 47,
+    "rank": 3,
+    "category": "Leader",
+    "size": 4,
+    "title": "Director, City of Seattle Public Art Program, Office of Arts and Culture",
+    "photo": "Ruri_Yampolsky.jpg"
+  },
+  {
+    "label": "Shannon Halberstadt",
+    "id": 48,
+    "rank": 3,
+    "category": "Leader",
+    "size": 4,
+    "title": "Executive Director, Artist Trust"
+  },
+  {
+    "label": "Sunny Speidel",
+    "id": 49,
+    "rank": 3,
+    "category": "Leader",
+    "size": 4,
+    "title": "President, Underground Tour ",
+    "filter": "x"
+  },
+  {
+    "label": "Vivian Phillips",
+    "id": 50,
+    "rank": 3,
+    "category": "Leader",
+    "size": 4,
+    "title": "Director of marketing and communications at Seattle Theater Group, Chair of the Seattle Arts Commission",
+    "photo": "Vivian_Phillips.jpg"
+  },
+  {
+    "label": "Yoko Ott",
+    "id": 51,
+    "rank": 3,
+    "category": "Leader",
+    "size": 4,
+    "title": "Former founding director, the New Foundation; independent curator"
+  },
+  {
+    "label": "Zoe Scofield",
+    "id": 52,
+    "rank": 3,
+    "category": "Leader",
+    "size": 4,
+    "title": "Co-Artistic Director, Zoe:Juniper; Choreographer"
+  },
+  {
+    "label": "Zola Mumford",
+    "id": 53,
+    "rank": 3,
+    "category": "Curator",
+    "size": 4,
+    "title": "Reference Librarian, Curator, Langston Hughes African American Film Festival",
+    "filter": "x"
+  },
+  {
+    "label": "Rashida Bumbray",
+    "id": 54,
+    "rank": 3,
+    "category": "Leader",
+    "size": 4,
+    "title": "Independent Curator; Director of Artistic Affairs, Duke Ellington School of the Arts",
+    "filter": "x"
+  },
+  {
+    "label": "Barbara Goldstein",
+    "id": 55,
+    "rank": 3,
+    "category": "Leader",
+    "size": 4,
+    "title": "Former Public Art Program Manager, Seattle; Former Public Art Director, City of San Jose"
+  },
+  {
+    "label": "Amanda Manitach",
+    "id": 56,
+    "rank": 4,
+    "category": "Artist",
+    "size": 3,
+    "title": "Artist and gallerist, The Factory",
+    "photo": "Amanda_Manitach.jpg"
+  },
+  {
+    "label": "Beth Cullom",
+    "id": 57,
+    "rank": 4,
+    "category": "Gallery Owner",
+    "size": 3,
+    "title": "Gallerist"
+  },
+  {
+    "label": "Diana Adams",
+    "id": 58,
+    "rank": 4,
+    "category": "Gallery Owner",
+    "size": 3,
+    "title": "Gallerist, Vermillion",
+    "photo": "Diana_Adams.jpg"
+  },
+  {
+    "label": "Francine Seders",
+    "id": 59,
+    "rank": 4,
+    "category": "Gallery Owner",
+    "size": 3,
+    "title": "Former gallerist",
+    "photo": "Francine_Seders.jpg"
+  },
+  {
+    "label": "Mariane Ibrahim",
+    "id": 60,
+    "rank": 4,
+    "category": "Gallery Owner",
+    "size": 3,
+    "title": "Gallerist, Mariane Ibrahim "
+  },
+  {
+    "label": "Sharon Arnold",
+    "id": 61,
+    "rank": 4,
+    "category": "Artist",
+    "size": 3,
+    "title": "Artist and gallerist"
+  },
+  {
+    "label": "Tariqa Waters",
+    "id": 62,
+    "rank": 4,
+    "category": "Artist",
+    "size": 3,
+    "title": "Artist, Gallerist Martyr Sauce",
+    "photo": "Tariqa_Waters.jpg"
+  },
+  {
+    "label": "Stacey Winston-Levitan",
+    "id": 63,
+    "rank": 4,
+    "category": "Gallery Owner",
+    "size": 3,
+    "title": "Gallerist, Winston Wachter",
+    "photo": "Stacy_Winston.jpg"
+  },
+  {
+    "label": "Kirsten Anderson",
+    "id": 64,
+    "rank": 4,
+    "category": "Gallery Owner",
+    "size": 3,
+    "title": "Gallerist, Roq La Rue"
+  },
+  {
+    "label": "Alice Wheeler",
+    "id": 65,
+    "rank": 5,
+    "category": "Artist",
+    "size": 2,
+    "title": "Photographer"
+  },
+  {
+    "label": "Anna Gaskell",
+    "id": 66,
+    "rank": 5,
+    "category": "Artist",
+    "size": 2,
+    "title": "Photographer"
+  },
+  {
+    "label": "Aramis Hamer",
+    "id": 67,
+    "rank": 5,
+    "category": "Artist",
+    "size": 2,
+    "title": "Artist",
+    "photo": "Aramis_Hamer.jpg"
+  },
+  {
+    "label": "Caitlin Clark",
+    "id": 68,
+    "rank": 5,
+    "category": "Artist",
+    "size": 2,
+    "title": "AKA \"Blu,\" spoken word artist, member the Trill Effect"
+  },
+  {
+    "label": "Davida Ingram",
+    "id": 69,
+    "rank": 5,
+    "category": "Artist",
+    "size": 2,
+    "title": "Public Engagement Programs Manager, Seattle Art Museum, Artist",
+    "photo": "Davida_Ingram.jpg"
+  },
+  {
+    "label": "Devon Midori Hale",
+    "id": 70,
+    "rank": 5,
+    "category": "Artist",
+    "size": 2,
+    "title": "Artist"
+  },
+  {
+    "label": "Elizabeth Conner",
+    "id": 71,
+    "rank": 5,
+    "category": "Artist",
+    "size": 2,
+    "title": "Artist"
+  },
+  {
+    "label": "Elizabeth Lopez",
+    "id": 72,
+    "rank": 5,
+    "category": "Artist",
+    "size": 2,
+    "title": "Artist"
+  },
+  {
+    "label": "Isvald Klingels",
+    "id": 73,
+    "rank": 5,
+    "category": "Artist",
+    "size": 2,
+    "title": "Artist"
+  },
+  {
+    "label": "Ivana Kartzov",
+    "id": 74,
+    "rank": 5,
+    "category": "Artist",
+    "size": 2,
+    "title": "Artist"
+  },
+  {
+    "label": "Jazmyn Scott",
+    "id": 75,
+    "rank": 5,
+    "category": "Curator",
+    "size": 2,
+    "title": "Co-curator, \"Legacy of Seattle Hip Hop Exhibi,\" MOHAI "
+  },
+  {
+    "label": "Jessika Kenney",
+    "id": 76,
+    "rank": 5,
+    "category": "Artist",
+    "size": 2,
+    "title": "Artist and musician"
+  },
+  {
+    "label": "Juliana Heyne",
+    "id": 77,
+    "rank": 5,
+    "category": "Artist",
+    "size": 2,
+    "title": "Artist"
+  },
+  {
+    "label": "Kamisha Turner",
+    "id": 78,
+    "rank": 5,
+    "category": "Artist",
+    "size": 2,
+    "title": "Artist"
+  },
+  {
+    "label": "Kathryn Hightower ",
+    "id": 79,
+    "rank": 5,
+    "category": "Leader",
+    "size": 2,
+    "title": "Founder, ISIS: Women Arts Festival, dancer"
+  },
+  {
+    "label": "Klara Glosova",
+    "id": 80,
+    "rank": 5,
+    "category": "Leader",
+    "size": 2,
+    "title": "Founder, NEPO House; artist"
+  },
+  {
+    "label": "Lauri Chambers",
+    "id": 81,
+    "rank": 5,
+    "category": "Artist",
+    "size": 2,
+    "title": "Painter"
+  },
+  {
+    "label": "Laurie Hawkinson",
+    "id": 82,
+    "rank": 5,
+    "category": "Misc.",
+    "size": 2,
+    "title": "Architect, Partner, Smith-Miller + Hawkinson Architects LLP",
+    "filter": "x"
+  },
+  {
+    "label": "Mary Randlett",
+    "id": 83,
+    "rank": 5,
+    "category": "Artist",
+    "size": 2,
+    "title": "Photographer"
+  },
+  {
+    "label": "Misun Chung Gerrick",
+    "id": 84,
+    "rank": 5,
+    "category": "Misc.",
+    "size": 2,
+    "title": "Architect, Olson Kundig"
+  },
+  {
+    "label": "Mo Avery",
+    "id": 85,
+    "rank": 5,
+    "category": "Artist",
+    "size": 2,
+    "title": "Musician, youth organizer"
+  },
+  {
+    "label": "Monica Washington",
+    "id": 86,
+    "rank": 5,
+    "category": "Artist",
+    "size": 2,
+    "title": "AKA \"Kamari Bright\"; artist, Trill Effect"
+  },
+  {
+    "label": "Norie Sato ",
+    "id": 87,
+    "rank": 5,
+    "category": "Artist",
+    "size": 2,
+    "title": "Artist"
+  },
+  {
+    "label": "Rebecca Brown",
+    "id": 88,
+    "rank": 5,
+    "category": "Artist",
+    "size": 2,
+    "title": "Artist"
+  },
+  {
+    "label": "Sierra Stinson",
+    "id": 89,
+    "rank": 5,
+    "category": "Curator",
+    "size": 2,
+    "title": "Independent Curator"
+  },
+  {
+    "label": "Susie J. Lee",
+    "id": 90,
+    "rank": 5,
+    "category": "Leader",
+    "size": 2,
+    "title": " Co-Founder, CEO, Siren; Artist",
+    "photo": "Susie_Lee.jpg"
+  },
+  {
+    "label": "Vaughn Bell",
+    "id": 91,
+    "rank": 5,
+    "category": "Artist",
+    "size": 2,
+    "title": "Artist"
+  },
+  {
+    "label": "Vicki Halper",
+    "id": 92,
+    "rank": 5,
+    "category": "Curator",
+    "size": 2,
+    "title": "Independent Curator"
+  },
+  {
+    "label": "Davora Lindner",
+    "id": 93,
+    "rank": 5,
+    "category": "Leader",
+    "size": 2,
+    "title": "Designer and Founder, Prairie Underground; Curator, 'Mo-Wave exhibition"
+  },
+  {
+    "label": "Lena Takamori",
+    "id": 94,
+    "rank": 5,
+    "category": "Artist",
+    "size": 2,
+    "title": "Artist"
+  },
+  {
+    "label": "Diane Espaldon",
+    "id": 95,
+    "rank": 6,
+    "category": "Misc.",
+    "size": 1,
+    "title": "Independent consultant, Diane V. Espaldon Strategic Consulting"
+  },
+  {
+    "label": "Alex Curio",
+    "id": 96,
+    "rank": 6,
+    "category": "Leader",
+    "size": 1,
+    "title": "Development Director, Northwest African American Museum"
+  },
+  {
+    "label": "Bridget Watson Payne",
+    "id": 97,
+    "rank": 6,
+    "category": "Misc.",
+    "size": 1,
+    "title": "Senior editor of Art and Design, Chronicle Books"
+  },
+  {
+    "label": "Chieko Phillips",
+    "id": 98,
+    "rank": 6,
+    "category": "Curator",
+    "size": 1,
+    "title": "Public Programs Curator, Photographic Center Northwest"
+  },
+  {
+    "label": "Elisheba Johnson",
+    "id": 99,
+    "rank": 6,
+    "category": "Misc.",
+    "size": 1,
+    "title": "Public Art Project Manager, Office of Arts and Culture, COLLECT partner"
+  },
+  {
+    "label": "Ellen Ferguson",
+    "id": 100,
+    "rank": 6,
+    "category": "Misc.",
+    "size": 1,
+    "title": "Community Relations Director, Burke Museum; Co-President, board of Trustees, The Wing Luke Museum "
+  },
+  {
+    "label": "Ethelyn Abellanosa",
+    "id": 101,
+    "rank": 6,
+    "category": "Leader",
+    "size": 1,
+    "title": "Former Deputy Director of Operations, Wing Luke"
+  },
+  {
+    "label": "Joy Shigaki",
+    "id": 102,
+    "rank": 6,
+    "category": "Leader",
+    "size": 1,
+    "title": "Director of Development, Mayor's Fund to Advance New York City, Former Capital Campaign Manager, Wing Luke"
+  },
+  {
+    "label": "Karen Toering",
+    "id": 103,
+    "rank": 6,
+    "category": "Misc.",
+    "size": 1,
+    "title": "Senior Project Manager, Social Justice Fund"
+  },
+  {
+    "label": "Kim Richter",
+    "id": 104,
+    "rank": 6,
+    "category": "Leader",
+    "size": 1,
+    "title": "Co-Chair, Seattle Arts Fair Committee"
+  },
+  {
+    "label": "Leilani Lewis",
+    "id": 105,
+    "rank": 6,
+    "category": "Misc.",
+    "size": 1,
+    "title": "Assistant Director of Diversity, Communications and Outreach, University of Washington "
+  },
+  {
+    "label": "Michele Hasson",
+    "id": 106,
+    "rank": 6,
+    "category": "Misc.",
+    "size": 1,
+    "title": "Fundraising consultant, former Director of Development, Seattle Opera"
+  },
+  {
+    "label": "Micki Flowers",
+    "id": 107,
+    "rank": 6,
+    "category": "MIsc.",
+    "size": 1,
+    "title": "Former KIRO anchor",
+    "filter": "x"
+  },
+  {
+    "label": "Minnie Collins",
+    "id": 108,
+    "rank": 6,
+    "category": "MIsc.",
+    "size": 1,
+    "title": "Professor of English (Emeritus), Seattle Central College"
+  },
+  {
+    "label": "Negarra Kudumu ",
+    "id": 109,
+    "rank": 6,
+    "category": "MIsc.",
+    "size": 1,
+    "title": "Educator, Frye Art Museum"
+  },
+  {
+    "label": "Patricia Failing",
+    "id": 110,
+    "rank": 6,
+    "category": "MIsc.",
+    "size": 1,
+    "title": "Retired, Chair and Professor, Division of Art History, University of Washington",
+    "filter": "x"
+  },
+  {
+    "label": "Patricia Scott",
+    "id": 111,
+    "rank": 6,
+    "category": "Misc.",
+    "size": 1,
+    "title": "Former assistant, Francine Seders Gallery ",
+    "filter": "x"
+  },
+  {
+    "label": "Priya Frank",
+    "id": 112,
+    "rank": 6,
+    "category": "Misc.",
+    "size": 1,
+    "title": "Associate Director of Community Programs, Seattle Art Museum"
+  },
+  {
+    "label": "Serenity Wise",
+    "id": 113,
+    "rank": 6,
+    "category": "Leader",
+    "size": 1,
+    "title": "Director of Community Engagement, Northwest African American Museum"
+  },
+  {
+    "label": "Sharon Nyree Williams",
+    "id": 114,
+    "rank": 6,
+    "category": "Leader",
+    "size": 1,
+    "title": "Managing Director, Central District Forum For Arts and Ideas",
+    "filter": "x"
+  },
+  {
+    "label": "Valerie Curtis-Newton ",
+    "id": 115,
+    "rank": 6,
+    "category": "Leader",
+    "size": 1,
+    "title": "Head of Performance — Acting and Directing, University of Washington; Artistic Director, The Hansberry Project",
+    "filter": "x"
+  },
+  {
+    "label": "Yukiko Yamagata",
+    "id": 116,
+    "rank": 6,
+    "category": "Leader",
+    "size": 1,
+    "title": "Acting Interim Director, Open Society Foundations Documentary Photography Project",
+    "filter": "x"
+  },
+  {
+    "label": "Lorrie Scott Cardoso",
+    "id": 117,
+    "rank": 6,
+    "category": "Misc.",
+    "size": 1,
+    "title": "Senior Paralegal, Starbucks; Vice Chair of the Board, CoCA; COLLECT partner"
+  },
+  {
+    "label": "Deborah Willis",
+    "id": 118,
+    "rank": 6,
+    "category": "Misc.",
+    "size": 1,
+    "title": "Chair, Department of Photography & Imaging, Tisch School of the Arts at New York University",
+    "filter": "x"
+  },
+  {
+    "label": "Tasia Endo",
+    "id": 119,
+    "rank": 6,
+    "category": "Misc.",
+    "size": 1,
+    "title": "Museum Educator for Interpretive Technology, Seattle Art Museum"
+  },
+  {
+    "label": "Katrina Hess",
+    "id": 120,
+    "rank": 6,
+    "category": "Leader",
+    "size": 1,
+    "title": "Co-founder and COO, Siren"
+  },
+  {
+    "label": "Jen Graves",
+    "id": 121,
+    "rank": 6,
+    "category": "Misc.",
+    "size": 1,
+    "title": "Visual Arts Writer, The Stranger"
+  },
+  {
+    "label": "Lesley Hazleton",
+    "id": 122,
+    "rank": 6,
+    "category": "Misc.",
+    "size": 1,
+    "title": "Author",
+    "filter": "x"
+  },
+  {
+    "label": "Etsuko Ichikawa",
+    "id": 123,
+    "rank": 5,
+    "category": "Artist",
+    "size": 2,
+    "title": "Artist"
+  },
+  {
+    "label": "Julie Speidel",
+    "id": 124,
+    "rank": 5,
+    "category": "Artist",
+    "size": 2,
+    "title": "Artist"
+  },
+  {
+    "label": "Susan Dory",
+    "id": 125,
+    "rank": 5,
+    "category": "Artist",
+    "size": 2,
+    "title": "Artist"
+  },
+  {
+    "label": "Mary Boone",
+    "id": 126,
+    "rank": 4,
+    "category": "Gallery Owner",
+    "size": 4,
+    "title": "Gallerist, Mary Boone Gallery, New York"
+  },
+  {
+    "label": "Susan Brotman",
+    "id": 127,
+    "rank": 3,
+    "category": "Misc.",
+    "size": 4,
+    "title": "Vice President, Board of Trustees, Seattle Art Museum "
+  },
+  {
+    "label": "Faye Sarkowsky ",
+    "id": 128,
+    "rank": 6,
+    "category": "Misc.",
+    "size": 4,
+    "title": "Trustee, Seattle Art Museum"
+  },
+  {
+    "label": "Patty Stonesifer",
+    "id": 129,
+    "rank": 1,
+    "category": "Leader",
+    "size": 4,
+    "title": "Former co-chair, CEO, Bill and Melinda Gates Foundation; President, CEO, Martha's Table"
+  },
+  {
+    "label": "Kit Evans",
+    "id": 130,
+    "rank": 3,
+    "category": "Leader",
+    "size": 4,
+    "title": "Executive Director, Hilltop Artists in Residence"
+  },
+  {
+    "label": "Tina Kuckkahn-Miller",
+    "id": 131,
+    "rank": 3,
+    "category": "Leader",
+    "size": 4,
+    "title": "Founding Director, \"House of Welcome” Longhouse Education and Cultural Center, The Evergreen State College"
+  },
+  {
+    "label": "Marie Ferguson",
+    "id": 132,
+    "rank": 6,
+    "category": "Misc.",
+    "size": 4,
+    "title": "Former Administrative Director at the Dayton Art Institute",
+    "filter": "x"
+  },
+  {
+    "label": "Naomi Vine",
+    "id": 133,
+    "rank": 1,
+    "category": "Leader",
+    "size": 4,
+    "title": "Former Director, Laguna Art Museum, Orange County Museum of Art "
+  },
+  {
+    "label": "Manya Drobnack",
+    "id": 134,
+    "rank": 5,
+    "category": "Artist",
+    "size": 4,
+    "title": "Artist",
+    "filter": "x"
+  },
+  {
+    "label": "Karen Lorene ",
+    "id": 135,
+    "rank": 4,
+    "category": "Gallery Owner",
+    "size": 4,
+    "title": "Owner, Facere Jewelry Art Gallery",
+    "filter": "x"
+  },
+  {
+    "label": "Evelyn Zabo",
+    "id": 136,
+    "rank": 3,
+    "category": "Misc.",
+    "size": 4,
+    "title": "Practice Area Director, Telecomm",
+    "filter": "x"
+  },
+  {
+    "label": "Linda Pawson",
+    "id": 137,
+    "rank": 1,
+    "category": "Leader",
+    "size": 4,
+    "title": "Executive Director, Bellevue Arts Museum"
+  },
+  {
+    "label": "Bonnie Brandes",
+    "id": 138,
+    "rank": 6,
+    "category": "Misc.",
+    "size": 4,
+    "title": "Senior Business Manager, Microsoft IT Retail Store",
+    "filter": "x"
+  },
+  {
+    "label": "Tuya von Luehr",
+    "id": 139,
+    "rank": 6,
+    "category": "Misc.",
+    "size": 4,
+    "title": "Consultant",
+    "filter": "x"
+  },
+  {
+    "label": "Erin Weible",
+    "id": 140,
+    "rank": 3,
+    "category": "Leader",
+    "size": 4,
+    "title": "Managing Principal, The Lumiere Group"
+  },
+  {
+    "label": "Judy Sourakli",
+    "id": 141,
+    "rank": 2,
+    "category": "Curator",
+    "title": "Curator of Collections, Henry Art Gallery"
+  }
+]
