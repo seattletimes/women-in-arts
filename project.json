@@ -5,8 +5,8 @@
       "path": "metrical-velum"
     },
     "live": {
-      "bucket": "",
-      "path": ""
+      "bucket": "projects.seattletimes.com",
+      "path": "2016/features/women-in-arts"
     }
   },
   "title": "",
@@ -16,6 +16,6 @@
   "tags": [],
   "image": "assets/social.jpg",
   "sheets": ["1tfPy2s_C1YLgL0QnzMN3p5Hn4Y4G4nmij4vyIin8rDo"],
-  "production": false,
+  "production": true,
   "embedded": true
 }
